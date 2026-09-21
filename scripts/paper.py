@@ -1,0 +1,324 @@
+import json, os, datetime
+from score import load
+
+START_CASH = 1000.0
+FEE = 0.003
+IMPACT_CAP = 0.01
+TURN_REF = 0.5
+MIN_VSCALE = 0.3
+MIN_POS = 25.0
+MIN_EFF_W = 0.5  # admit more candidates; safe because exits now protect downside
+
+BOTS = {
+    "cons": {"pos": 100.0, "max_open": 6, "tp": 0.25, "sl": -0.07, "max_days": 5,
+             "be_arm": 0.05, "be_floor": 0.005, "trail_arm": 0.10, "trail_gap": 0.05,
+             "sig_cap": 2,
+             "min_tvl": 50000, "min_holders": 5000, "min_liq_ratio": 0.02,
+             "signals": ["hidden_buyer", "holders_surge", "accum_div", "liq_inflow"]},
+    "aggr": {"pos": 90.0, "max_open": 12, "tp": 0.50, "sl": -0.12, "max_days": 3,
+             "be_arm": 0.08, "be_floor": 0.01, "trail_arm": 0.15, "trail_gap": 0.10,
+             "sig_cap": 3,
+             "min_tvl": 20000, "min_holders": 500, "min_liq_ratio": 0.0,
+             "signals": ["hidden_buyer", "holders_surge", "accum_div", "liq_inflow",
+                          "momentum", "breakout", "dip_reversal", "flow_imbalance"]},
+}
+
+def impact(liq_usd, size):
+    q = max(liq_usd / 2.0, 1.0)
+    return ((q + size) / q) ** 2 - 1
+
+def position_size(cfg, t):
+    base = cfg["pos"]
+    tvl = t.get("tvl", 0) or 0
+    if tvl <= 0:
+        return 0.0
+    impact_cap = (tvl / 2.0) * ((1 + IMPACT_CAP) ** 0.5 - 1)
+    turn = (t.get("vol24", 0) or 0) / tvl
+    vscale = 1.0 if turn <= TURN_REF else max(MIN_VSCALE, TURN_REF / turn)
+    size = min(base, impact_cap) * vscale
+    return round(size, 2) if size >= MIN_POS else 0.0
+
+# Capital is allocated by measured edge. RANK_MULTS bias entry priority; position
+# size scales continuously with the measured excess (see SIZE_* below). The journal
+# always records raw w. Walk-forward-confirmed signals (positive excess in BOTH in-
+# and out-of-sample) are the only robust alpha -> prioritized for the scarce open
+# slots even when the small-sample point verdict is merely "neutral".
+RANK_MULTS = {"edge": 1.5, "neutral": 0.8, "noise": 0.3, "collecting": 1.0}
+WF_RANK_BONUS = 1.4
+# Position size is now CONTINUOUS in the measured base-horizon excess (size ~ edge),
+# not a stepwise verdict table. Walk-forward-confirmed alpha gets full impact-safe
+# size; everything else scales by its excess shrunk toward 0 for small samples
+# (eff_x = x*n/(n+SIZE_SHRINK) — an n=1 estimate is mostly noise). noise verdicts and
+# any non-positive measured excess get 0. The signal journal keeps scoring every
+# detected signal regardless of whether the bot opens, so sitting out never starves learning.
+SIZE_X_FULL = 4.0   # base-horizon excess % that earns full impact-safe size
+SIZE_SHRINK = 3.0   # small-sample shrinkage strength
+SIZE_FLOOR = 0.25   # min size for any positive shrunk edge (still probe it)
+
+def load_score_mults():
+    """Return {sig: (rank_mult, size_mult)} from data/signals/scores.json.
+    rank = verdict bias + walk-forward boost (entry priority). size = continuous
+    in the measured base-horizon excess: validated alpha -> full size; otherwise
+    the excess shrunk for small samples, capped <=1.0 (impact-safe) and floored to
+    a small probe; noise and non-positive excess get 0."""
+    sc = load("data/signals/scores.json", {})
+    out = {}
+    for sig, agg in sc.get("per_sig", {}).items():
+        v = agg.get("verdict", "collecting")
+        rank = RANK_MULTS.get(v, 1.0)
+        confirmed = v != "noise" and agg.get("wf", {}).get("confirmed")
+        if confirmed:
+            rank *= WF_RANK_BONUS
+        bh = agg.get("base_h")
+        xb = agg.get("x", {}).get("h%d" % bh, {}) if bh else {}
+        x, n = xb.get("avg"), xb.get("n") or 0
+        if v == "noise" or x is None or n == 0 or x <= 0:
+            size = 0.0
+        elif confirmed:
+            size = 1.0
+        else:
+            eff_x = x * n / (n + SIZE_SHRINK)
+            size = max(SIZE_FLOOR, min(1.0, eff_x / SIZE_X_FULL))
+        out[sig] = (round(rank, 3), round(size, 3))
+    return out
+
+SMART_TRUST_MAX = 0.6    # up to +60% entry priority for the strongest smart-money consensus
+SMART_DEBOOST_MAX = 0.4  # down to -40% for a token broad smart money holds underwater
+DEBOOST_EDGE = -5.0      # consensus avg edge below this = clear distribution, not noise
+
+def smart_trust(holders, avg_edge, new):
+    """Entry-priority multiplier for a token by smart-money consensus
+    (data/wallets.json favorites). A token that many proven multi-token roster
+    wallets hold AND that has been rising is the cleanest copy target for a
+    scarce open slot -> boost (>=3 holders, positive edge; fresh entries get the
+    full boost, already-held half — entering-now is the sharper copy signal;
+    bounded at 1+SMART_TRUST_MAX so it only reorders the queue, never dominates
+    measured-edge sizing). The mirror case is just as informative: a token that
+    broad consensus holds at a clear loss (edge <= DEBOOST_EDGE) is smart money
+    distributing/stuck -> de-boost below 1.0 so the scarce slot skips it. Both
+    sides scale with breadth (more roster wallets = stronger consensus). A
+    shallow loss (DEBOOST_EDGE < edge <= 0) is noise -> stay neutral (1.0)."""
+    if holders is None or holders < 3 or avg_edge is None:
+        return 1.0
+    breadth = min(holders, 9) / 9          # consensus width, capped (9+ = full)
+    if avg_edge > 0:
+        fresh = 1.0 if new else 0.5        # buying now vs already in
+        return round(1.0 + SMART_TRUST_MAX * breadth * fresh, 3)
+    if avg_edge <= DEBOOST_EDGE:           # broad consensus underwater = dumping
+        return round(1.0 - SMART_DEBOOST_MAX * breadth, 3)
+    return 1.0
+
+def pct(cur, prev):
+    if prev is None or not prev:
+        return None
+    return (cur / prev - 1) * 100
+
+def decide_exit(cfg, entry_eff, cur, peak, days, dtvl, d1, size_zero):
+    """Pure exit decision -> reason string or None. Caller updates `peak`
+    (max price since entry) before calling. dtvl/d1 are percent day-over-day
+    deltas (pct() output). Ladder order matters: trail and break-even protect
+    a position that has run up before the raw stop-loss can fire."""
+    ret = cur / entry_eff - 1
+    peak_ret = peak / entry_eff - 1
+    if dtvl is not None and dtvl < -25:
+        return "rug_exit"
+    if peak_ret >= cfg["trail_arm"] and ret <= peak_ret - cfg["trail_gap"]:
+        return "trail"
+    if peak_ret >= cfg["be_arm"] and ret <= cfg["be_floor"]:
+        return "breakeven"
+    if size_zero and ret <= 0:
+        return "edge_fade"
+    if ret <= cfg["sl"]:
+        return "sl"
+    if ret >= cfg["tp"]:
+        return "tp"
+    if days >= cfg["max_days"]:
+        if ret > 0:
+            return "time"
+        if days < 2 * cfg["max_days"] and (
+            (d1 is not None and d1 > 0) or (dtvl is not None and dtvl > 0)):
+            return None
+        return "time"
+    return None
+
+def detect_signals(addr, t, hist, cats, wash_ban, today):
+    out = []
+    if "error" in t or not t.get("price"):
+        return out
+    if cats.get(addr, "meme") in ("stable", "staking"):
+        return out
+    vol, tvl = t.get("vol24", 0) or 0, t.get("tvl", 0) or 0
+    buys, sells = t.get("buys", 0), t.get("sells", 0)
+    prev = hist[-1] if hist else None
+    d1 = pct(t["price"], (prev or {}).get("price"))
+    dh = pct(t.get("holders", 0), (prev or {}).get("holders")) if prev else None
+    dtvl = pct(tvl, (prev or {}).get("tvl")) if prev else None
+    flat = d1 is not None and abs(d1) < 2
+    if tvl > 0 and vol / tvl > 3:
+        wash_ban[addr] = today
+    ban = wash_ban.get(addr)
+    if ban and (datetime.date.fromisoformat(today) - datetime.date.fromisoformat(ban)).days < 7:
+        return out
+    if buys + sells > 50 and sells > buys * 1.5 and flat:
+        out.append(("hidden_buyer", 3.0))
+    if dh is not None and dh > 1.5 and (t.get("holders",0)-(prev or {}).get("holders",0)) > 100:
+        out.append(("holders_surge", 2.5))
+    if d1 is not None and dh is not None and d1 < -3 and dh > 0.5:
+        out.append(("accum_div", 2.8))
+    if dtvl is not None and dtvl > 20 and d1 is not None and abs(d1) < 3:
+        out.append(("liq_inflow", 2.2))
+    if d1 is not None and d1 > 8:
+        out.append(("momentum", 1.0))
+    if len(hist) >= 6:
+        past_prices = [h.get("price") for h in hist if h.get("price")]
+        past_vols = [h.get("vol24", 0) or 0 for h in hist]
+        if past_prices and t["price"] > max(past_prices) * 1.02 and past_vols and vol > 2 * (sum(past_vols) / len(past_vols)):
+            out.append(("breakout", 1.8))
+    if d1 is not None and d1 < -12 and t.get("holders", 0) > 10000 and tvl > 100000:
+        out.append(("dip_reversal", 1.5))
+    if buys + sells >= 80 and buys / max(buys + sells, 1) >= 0.65:
+        out.append(("flow_imbalance", 1.2))
+    return out
+
+def run_bot(name, cfg, bot, toks, sig_map, prev_map, today, score_mults=None, fav_trust=None):
+    still = []
+    for p in bot["positions"]:
+        t = toks.get(p["addr"])
+        cur = (t or {}).get("price")
+        p["days"] += 1
+        if not cur:
+            still.append(p); continue
+        prevt = prev_map.get(p["addr"]) or {}
+        tvl = (t or {}).get("tvl", 0) or 0
+        dtvl = pct(tvl, prevt.get("tvl"))
+        d1 = pct(cur, prevt.get("price"))
+        p["peak"] = max(p.get("peak", p["entry_eff"]), cur)  # legacy positions: default to entry
+        ret = cur / p["entry_eff"] - 1
+        size_zero = bool(score_mults) and score_mults.get(p["signal"], (1.0, 1.0))[1] == 0.0
+        reason = decide_exit(cfg, p["entry_eff"], cur, p["peak"], p["days"], dtvl, d1, size_zero)
+        if reason:
+            size = p.get("size", cfg["pos"])
+            out_mult = 1 - min(impact(tvl, size), 0.5) - FEE
+            proceeds = p["qty"] * cur * out_mult
+            bot["cash"] += proceeds
+            bot["trades"].append({"addr": p["addr"], "sym": p["sym"], "signal": p["signal"],
+                "opened": p["opened"], "closed": today, "entry": p["entry_eff"], "exit": cur,
+                "size": round(size, 2), "trust": p.get("trust", 1.0),
+                "pnl": round(proceeds - size, 2), "ret": round(ret * 100, 2), "reason": reason})
+        else:
+            still.append(p)
+    bot["positions"] = still
+    open_addrs = {p["addr"] for p in bot["positions"]}
+    sig_counts = {}
+    for op in bot["positions"]:
+        sig_counts[op["signal"]] = sig_counts.get(op["signal"], 0) + 1
+    cands = []
+    for addr, sigs in sig_map.items():
+        t = toks[addr]
+        tvl = t.get("tvl", 0) or 0
+        mcap = t.get("mcap", 0) or 0
+        if tvl < cfg["min_tvl"]: continue
+        if t.get("holders", 0) < cfg["min_holders"]: continue
+        if cfg["min_liq_ratio"] > 0 and mcap > 0 and tvl / mcap < cfg["min_liq_ratio"]: continue
+        trust = (fav_trust or {}).get(t["sym"], 1.0)  # smart-money consensus boost
+        for sig, w in sigs:
+            if sig in cfg["signals"]:
+                rank_mult = (score_mults or {}).get(sig, (1.0, 1.0))[0]
+                cands.append((w * rank_mult * trust, addr, t, sig))
+    cands.sort(key=lambda x: -x[0])
+    for eff_w, addr, t, sig in cands:
+        if len(bot["positions"]) >= cfg["max_open"]: break
+        if eff_w < MIN_EFF_W: break  # sorted desc — rest also below threshold
+        if addr in open_addrs: continue
+        if sig_counts.get(sig, 0) >= cfg["sig_cap"]: continue  # diversify: cap per signal type
+        size_mult = (score_mults or {}).get(sig, (1.0, 1.0))[1]
+        size = round(position_size(cfg, t) * size_mult, 2)
+        if size < MIN_POS or bot["cash"] < size: continue
+        tvl = t.get("tvl", 0) or 0
+        entry_eff = t["price"] * (1 + min(impact(tvl, size), 0.5) + FEE)
+        qty = size / entry_eff
+        bot["cash"] -= size
+        bot["positions"].append({"addr": addr, "sym": t["sym"], "signal": sig, "opened": today,
+                                  "entry_eff": entry_eff, "qty": qty, "size": size, "days": 0,
+                                  "peak": entry_eff,
+                                  "trust": round((fav_trust or {}).get(t["sym"], 1.0), 3)})
+        open_addrs.add(addr)
+        sig_counts[sig] = sig_counts.get(sig, 0) + 1
+    mtm = bot["cash"]
+    for p in bot["positions"]:
+        cur = (toks.get(p["addr"]) or {}).get("price") or p["entry_eff"]
+        mtm += p["qty"] * cur
+    if not bot["equity"] or bot["equity"][-1]["d"] != today:
+        bot["equity"].append({"d": today, "v": round(mtm, 2)})
+    else:
+        bot["equity"][-1]["v"] = round(mtm, 2)
+    return mtm
+
+def main():
+    today = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d")
+    idx = load("data/index.json", {"dates": []})
+    dates = idx["dates"]
+    if not dates:
+        print("no snapshots"); return
+    snap = load("data/snapshots/%s.json" % dates[-1], None)
+    if not snap:
+        print("snapshot missing"); return
+    cats = load("data/cats.json", {})
+    score_mults = load_score_mults()
+    # smart-money trust: tokens the wallets.py roster converges on bias the scarce
+    # open slots — positive consensus -> boost, broad-but-underwater consensus
+    # (smart money dumping) -> de-boost. Guarded: stale or missing favorites ->
+    # empty map -> no behavior change.
+    fav_trust = {}
+    for f in load("data/wallets.json", {}).get("favorites", []):
+        m = smart_trust(f.get("holders", 0), f.get("avg_edge"), f.get("new", 0))
+        if m != 1.0:
+            fav_trust[f["sym"]] = m
+    state = load("data/paper/bots.json", None)
+    if state is None:
+        state = {"wash_ban": {}, "bots": {n: {"cash": START_CASH, "positions": [], "trades": [], "equity": []} for n in BOTS}}
+    toks = snap["tokens"]
+    hist_snaps = [load("data/snapshots/%s.json" % d, {"tokens": {}})["tokens"] for d in dates[-8:-1]]
+    prev_map = hist_snaps[-1] if hist_snaps else {}
+    sig_map = {}
+    journal = []
+    for a, t in toks.items():
+        hist = [hs.get(a) for hs in hist_snaps if hs.get(a)]
+        sigs = detect_signals(a, t, hist, cats, state["wash_ban"], today)
+        if sigs:
+            sig_map[a] = sigs
+            prev = prev_map.get(a) or {}
+            d1 = pct(t["price"], prev.get("price"))
+            for sig, w in sigs:
+                journal.append({"addr": a, "sym": t.get("sym"), "sig": sig, "w": w,
+                    "price": t.get("price"), "tvl": t.get("tvl"), "vol24": t.get("vol24"),
+                    "holders": t.get("holders"),
+                    "d1": round(d1, 2) if d1 is not None else None})
+    summary = {}
+    for name, cfg in BOTS.items():
+        mtm = run_bot(name, cfg, state["bots"][name], toks, sig_map, prev_map, today, score_mults, fav_trust)
+        summary[name] = round(mtm, 2)
+    os.makedirs("data/signals", exist_ok=True)
+    banned = sorted(a for a, d in state["wash_ban"].items()
+                    if (datetime.date.fromisoformat(today) - datetime.date.fromisoformat(d)).days < 7)
+    with open("data/signals/%s.json" % today, "w") as f:
+        json.dump({"date": today, "ton_usd": snap.get("ton_usd"),
+                   "signals": journal, "wash_banned": banned}, f, separators=(",", ":"))
+    sidx = load("data/signals/index.json", {"dates": []})
+    if today not in sidx["dates"]:
+        sidx["dates"].append(today)
+        sidx["dates"].sort()
+    with open("data/signals/index.json", "w") as f:
+        json.dump(sidx, f, separators=(",", ":"))
+    os.makedirs("data/paper", exist_ok=True)
+    with open("data/paper/bots.json", "w") as f:
+        json.dump(state, f, separators=(",", ":"))
+    noise = [s for s, (r, sz) in score_mults.items() if sz == 0.0]
+    print("paper2:", today, "signals:", {a: [s[0] for s in v] for a, v in sig_map.items()},
+          "journal:", len(journal), "equity:", summary,
+          "score_mults:", score_mults if score_mults else "none",
+          "zero_size:", noise if noise else "none",
+          "smart_trust:", fav_trust if fav_trust else "none")
+
+if __name__ == "__main__":
+    main()

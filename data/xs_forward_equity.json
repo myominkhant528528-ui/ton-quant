@@ -1,0 +1,1214 @@
+{
+ "records": [
+  {
+   "open_ts": 1782532800000,
+   "close_ts": 1782720000000,
+   "net": -0.06702547300116588,
+   "long": [
+    "SOL-USDT-SWAP",
+    "MMT-USDT-SWAP",
+    "LIT-USDT-SWAP",
+    "JTO-USDT-SWAP",
+    "XPL-USDT-SWAP",
+    "AAVE-USDT-SWAP",
+    "LAB-USDT-SWAP",
+    "AGLD-USDT-SWAP"
+   ],
+   "short": [
+    "H-USDT-SWAP",
+    "BASED-USDT-SWAP",
+    "BICO-USDT-SWAP",
+    "ALLO-USDT-SWAP",
+    "RESOLV-USDT-SWAP",
+    "WLD-USDT-SWAP",
+    "XLM-USDT-SWAP",
+    "PUMP-USDT-SWAP"
+   ]
+  },
+  {
+   "open_ts": 1782720000000,
+   "close_ts": 1783051200000,
+   "net": -0.0782214004546491,
+   "long": [
+    "BEAT-USDT-SWAP",
+    "BASED-USDT-SWAP",
+    "PUMP-USDT-SWAP",
+    "WIF-USDT-SWAP",
+    "UB-USDT-SWAP",
+    "AGLD-USDT-SWAP",
+    "ACT-USDT-SWAP",
+    "RAVE-USDT-SWAP"
+   ],
+   "short": [
+    "ALLO-USDT-SWAP",
+    "IP-USDT-SWAP",
+    "LAB-USDT-SWAP",
+    "WLD-USDT-SWAP",
+    "RESOLV-USDT-SWAP",
+    "ZEC-USDT-SWAP",
+    "XPL-USDT-SWAP",
+    "DOGE-USDT-SWAP"
+   ]
+  },
+  {
+   "open_ts": 1783051200000,
+   "close_ts": 1783224000000,
+   "net": -0.05686331302932969,
+   "long": [
+    "BCH-USDT-SWAP",
+    "UNI-USDT-SWAP",
+    "BREV-USDT-SWAP",
+    "ADA-USDT-SWAP",
+    "LIT-USDT-SWAP",
+    "XLM-USDT-SWAP",
+    "BASED-USDT-SWAP",
+    "ALLO-USDT-SWAP"
+   ],
+   "short": [
+    "LAB-USDT-SWAP",
+    "ACT-USDT-SWAP",
+    "RAVE-USDT-SWAP",
+    "UB-USDT-SWAP",
+    "DYDX-USDT-SWAP",
+    "ORDI-USDT-SWAP",
+    "XPL-USDT-SWAP",
+    "AAVE-USDT-SWAP"
+   ]
+  },
+  {
+   "open_ts": 1783224000000,
+   "close_ts": 1783396800000,
+   "net": -0.03010494610082262,
+   "long": [
+    "BCH-USDT-SWAP",
+    "WLD-USDT-SWAP",
+    "XPL-USDT-SWAP",
+    "ADA-USDT-SWAP",
+    "BREV-USDT-SWAP",
+    "ALLO-USDT-SWAP",
+    "HMSTR-USDT-SWAP",
+    "LAB-USDT-SWAP"
+   ],
+   "short": [
+    "BASED-USDT-SWAP",
+    "DYDX-USDT-SWAP",
+    "JTO-USDT-SWAP",
+    "RAVE-USDT-SWAP",
+    "BEAT-USDT-SWAP",
+    "XLM-USDT-SWAP",
+    "ONDO-USDT-SWAP",
+    "AVAX-USDT-SWAP"
+   ]
+  },
+  {
+   "open_ts": 1783396800000,
+   "close_ts": 1783569600000,
+   "net": -0.13469985198933854,
+   "long": [
+    "BCH-USDT-SWAP",
+    "AAVE-USDT-SWAP",
+    "TRB-USDT-SWAP",
+    "RAVE-USDT-SWAP",
+    "ALLO-USDT-SWAP",
+    "LIT-USDT-SWAP",
+    "HMSTR-USDT-SWAP",
+    "LAB-USDT-SWAP"
+   ],
+   "short": [
+    "PIPPIN-USDT-SWAP",
+    "UB-USDT-SWAP",
+    "WLD-USDT-SWAP",
+    "TRUMP-USDT-SWAP",
+    "BEAT-USDT-SWAP",
+    "BREV-USDT-SWAP",
+    "SUI-USDT-SWAP",
+    "XLM-USDT-SWAP"
+   ]
+  },
+  {
+   "open_ts": 1783569600000,
+   "close_ts": 1783742400000,
+   "long": [
+    "BTC-USDT-SWAP",
+    "AAVE-USDT-SWAP",
+    "LIT-USDT-SWAP",
+    "BASED-USDT-SWAP",
+    "ZEC-USDT-SWAP",
+    "KAITO-USDT-SWAP",
+    "UNI-USDT-SWAP",
+    "ALLO-USDT-SWAP"
+   ],
+   "short": [
+    "LAB-USDT-SWAP",
+    "HMSTR-USDT-SWAP",
+    "UB-USDT-SWAP",
+    "BSB-USDT-SWAP",
+    "BEAT-USDT-SWAP",
+    "TRB-USDT-SWAP",
+    "XPL-USDT-SWAP",
+    "JTO-USDT-SWAP"
+   ],
+   "complete": true,
+   "long_gross": 0.023137332119658308,
+   "short_gross": -0.011148320848131194,
+   "fees": 0.0024,
+   "net": 0.0318856529677895,
+   "missing_long": [],
+   "missing_short": []
+  },
+  {
+   "open_ts": 1783742400000,
+   "close_ts": 1783915200000,
+   "long": [
+    "AAVE-USDT-SWAP",
+    "LIT-USDT-SWAP",
+    "UNI-USDT-SWAP",
+    "BASED-USDT-SWAP",
+    "BEAT-USDT-SWAP",
+    "KAT-USDT-SWAP",
+    "ARB-USDT-SWAP",
+    "MMT-USDT-SWAP"
+   ],
+   "short": [
+    "LAB-USDT-SWAP",
+    "UB-USDT-SWAP",
+    "HMSTR-USDT-SWAP",
+    "JTO-USDT-SWAP",
+    "PUMP-USDT-SWAP",
+    "XPL-USDT-SWAP",
+    "OPG-USDT-SWAP",
+    "RAVE-USDT-SWAP"
+   ],
+   "complete": true,
+   "long_gross": -0.03679156711020716,
+   "short_gross": -0.08122907492566506,
+   "fees": 0.0024,
+   "net": 0.0420375078154579,
+   "missing_long": [],
+   "missing_short": []
+  },
+  {
+   "open_ts": 1783915200000,
+   "close_ts": 1784088000000,
+   "long": [
+    "ARB-USDT-SWAP",
+    "MMT-USDT-SWAP",
+    "VIRTUAL-USDT-SWAP",
+    "ZEC-USDT-SWAP",
+    "HMSTR-USDT-SWAP",
+    "WLD-USDT-SWAP",
+    "BEAT-USDT-SWAP",
+    "BILL-USDT-SWAP"
+   ],
+   "short": [
+    "LAB-USDT-SWAP",
+    "ALLO-USDT-SWAP",
+    "BASED-USDT-SWAP",
+    "UB-USDT-SWAP",
+    "XPL-USDT-SWAP",
+    "ADA-USDT-SWAP",
+    "TRUMP-USDT-SWAP",
+    "TAO-USDT-SWAP"
+   ],
+   "complete": true,
+   "long_gross": -0.022593638360507692,
+   "short_gross": -0.057499795948346366,
+   "fees": 0.0024,
+   "net": 0.032506157587838674,
+   "missing_long": [],
+   "missing_short": []
+  },
+  {
+   "open_ts": 1784088000000,
+   "close_ts": 1784260800000,
+   "long": [
+    "ETH-USDT-SWAP",
+    "JTO-USDT-SWAP",
+    "LINK-USDT-SWAP",
+    "NEAR-USDT-SWAP",
+    "ZEC-USDT-SWAP",
+    "BEAT-USDT-SWAP",
+    "PUMP-USDT-SWAP",
+    "KAITO-USDT-SWAP"
+   ],
+   "short": [
+    "LAB-USDT-SWAP",
+    "KAT-USDT-SWAP",
+    "BSB-USDT-SWAP",
+    "BASED-USDT-SWAP",
+    "MMT-USDT-SWAP",
+    "ARB-USDT-SWAP",
+    "TAO-USDT-SWAP",
+    "BCH-USDT-SWAP"
+   ],
+   "complete": true,
+   "long_gross": -0.02202662768183844,
+   "short_gross": -0.022701006428801643,
+   "fees": 0.0024,
+   "net": -0.001725621253036797,
+   "missing_long": [],
+   "missing_short": []
+  },
+  {
+   "open_ts": 1784260800000,
+   "close_ts": 1784433600000,
+   "long": [
+    "ZEC-USDT-SWAP",
+    "PUMP-USDT-SWAP",
+    "UB-USDT-SWAP",
+    "BSB-USDT-SWAP",
+    "ONDO-USDT-SWAP",
+    "LDO-USDT-SWAP",
+    "RAVE-USDT-SWAP",
+    "KAITO-USDT-SWAP"
+   ],
+   "short": [
+    "BILL-USDT-SWAP",
+    "HOME-USDT-SWAP",
+    "LAB-USDT-SWAP",
+    "ALLO-USDT-SWAP",
+    "JTO-USDT-SWAP",
+    "BASED-USDT-SWAP",
+    "HYPE-USDT-SWAP",
+    "BCH-USDT-SWAP"
+   ],
+   "complete": true,
+   "long_gross": 0.02265966026268129,
+   "short_gross": -0.0021586457241946078,
+   "fees": 0.0024,
+   "net": 0.0224183059868759,
+   "missing_long": [],
+   "missing_short": []
+  },
+  {
+   "open_ts": 1784433600000,
+   "close_ts": 1784606400000,
+   "long": [
+    "ADA-USDT-SWAP",
+    "BASED-USDT-SWAP",
+    "LTC-USDT-SWAP",
+    "TRUMP-USDT-SWAP",
+    "UB-USDT-SWAP",
+    "RAVE-USDT-SWAP",
+    "ALLO-USDT-SWAP",
+    "KAITO-USDT-SWAP"
+   ],
+   "short": [
+    "HOME-USDT-SWAP",
+    "LAB-USDT-SWAP",
+    "BILL-USDT-SWAP",
+    "XPL-USDT-SWAP",
+    "BEAT-USDT-SWAP",
+    "HYPE-USDT-SWAP",
+    "LIT-USDT-SWAP",
+    "WLD-USDT-SWAP"
+   ],
+   "complete": true,
+   "long_gross": 0.008288512375501461,
+   "short_gross": -0.03698336603986731,
+   "fees": 0.0024,
+   "net": 0.04287187841536877,
+   "missing_long": [],
+   "missing_short": []
+  },
+  {
+   "open_ts": 1784606400000,
+   "close_ts": 1784779200000,
+   "long": [
+    "ADA-USDT-SWAP",
+    "NEAR-USDT-SWAP",
+    "LDO-USDT-SWAP",
+    "PENGU-USDT-SWAP",
+    "KAITO-USDT-SWAP",
+    "UB-USDT-SWAP",
+    "ALLO-USDT-SWAP",
+    "PUMP-USDT-SWAP"
+   ],
+   "short": [
+    "NIGHT-USDT-SWAP",
+    "LAB-USDT-SWAP",
+    "HOME-USDT-SWAP",
+    "RAVE-USDT-SWAP",
+    "BASED-USDT-SWAP",
+    "FIL-USDT-SWAP",
+    "ONDO-USDT-SWAP",
+    "BEAT-USDT-SWAP"
+   ],
+   "complete": true,
+   "long_gross": 0.012540219195836394,
+   "short_gross": 0.05641394679423438,
+   "fees": 0.0024,
+   "net": -0.046273727598397985,
+   "missing_long": [],
+   "missing_short": []
+  },
+  {
+   "open_ts": 1784779200000,
+   "close_ts": 1784952000000,
+   "long": [
+    "AAVE-USDT-SWAP",
+    "ALLO-USDT-SWAP",
+    "UNI-USDT-SWAP",
+    "ENA-USDT-SWAP",
+    "BEAT-USDT-SWAP",
+    "ONDO-USDT-SWAP",
+    "UB-USDT-SWAP",
+    "ZAMA-USDT-SWAP"
+   ],
+   "short": [
+    "NIGHT-USDT-SWAP",
+    "HOME-USDT-SWAP",
+    "BASED-USDT-SWAP",
+    "ZEC-USDT-SWAP",
+    "PUMP-USDT-SWAP",
+    "HYPE-USDT-SWAP",
+    "NEAR-USDT-SWAP",
+    "XLM-USDT-SWAP"
+   ],
+   "complete": true,
+   "long_gross": 0.009388044055727143,
+   "short_gross": -0.02870720126264506,
+   "fees": 0.0024,
+   "net": 0.035695245318372204,
+   "missing_long": [],
+   "missing_short": []
+  },
+  {
+   "open_ts": 1784952000000,
+   "close_ts": 1785124800000,
+   "long": [
+    "UNI-USDT-SWAP",
+    "WLFI-USDT-SWAP",
+    "ENA-USDT-SWAP",
+    "BILL-USDT-SWAP",
+    "LAB-USDT-SWAP",
+    "UB-USDT-SWAP",
+    "BEAT-USDT-SWAP",
+    "ZAMA-USDT-SWAP"
+   ],
+   "short": [
+    "NIGHT-USDT-SWAP",
+    "LIT-USDT-SWAP",
+    "ZEC-USDT-SWAP",
+    "PUMP-USDT-SWAP",
+    "WLD-USDT-SWAP",
+    "SUI-USDT-SWAP",
+    "XLM-USDT-SWAP",
+    "NEAR-USDT-SWAP"
+   ],
+   "complete": true,
+   "long_gross": 0.029391703996007282,
+   "short_gross": 0.047832541737804726,
+   "fees": 0.0024,
+   "net": -0.020840837741797444,
+   "missing_long": [],
+   "missing_short": []
+  },
+  {
+   "open_ts": 1785124800000,
+   "close_ts": 1785297600000,
+   "long": [
+    "AVAX-USDT-SWAP",
+    "APR-USDT-SWAP",
+    "BASED-USDT-SWAP",
+    "PUMP-USDT-SWAP",
+    "UB-USDT-SWAP",
+    "KAITO-USDT-SWAP",
+    "BEAT-USDT-SWAP",
+    "ESP-USDT-SWAP"
+   ],
+   "short": [
+    "ALLO-USDT-SWAP",
+    "BILL-USDT-SWAP",
+    "WLD-USDT-SWAP",
+    "WLFI-USDT-SWAP",
+    "SUI-USDT-SWAP",
+    "LAB-USDT-SWAP",
+    "NEAR-USDT-SWAP",
+    "ADA-USDT-SWAP"
+   ],
+   "complete": true,
+   "long_gross": -0.05976775708954801,
+   "short_gross": -0.0557551069362668,
+   "fees": 0.0024,
+   "net": -0.006412650153281213,
+   "missing_long": [],
+   "missing_short": []
+  },
+  {
+   "open_ts": 1785297600000,
+   "close_ts": 1785470400000,
+   "long": [
+    "AAVE-USDT-SWAP",
+    "BEAT-USDT-SWAP",
+    "LIT-USDT-SWAP",
+    "ZAMA-USDT-SWAP",
+    "UB-USDT-SWAP",
+    "PEOPLE-USDT-SWAP",
+    "KAITO-USDT-SWAP",
+    "SOON-USDT-SWAP"
+   ],
+   "short": [
+    "ALLO-USDT-SWAP",
+    "WLD-USDT-SWAP",
+    "LAB-USDT-SWAP",
+    "NEAR-USDT-SWAP",
+    "BILL-USDT-SWAP",
+    "ESP-USDT-SWAP",
+    "TRUMP-USDT-SWAP",
+    "ORDI-USDT-SWAP"
+   ],
+   "complete": true,
+   "long_gross": -0.02815582408951367,
+   "short_gross": -0.003851450204386847,
+   "fees": 0.0024,
+   "net": -0.026704373885126823,
+   "missing_long": [],
+   "missing_short": []
+  },
+  {
+   "open_ts": 1785470400000,
+   "close_ts": 1785643200000,
+   "long": [
+    "BNB-USDT-SWAP",
+    "TAO-USDT-SWAP",
+    "LAB-USDT-SWAP",
+    "ADA-USDT-SWAP",
+    "UNI-USDT-SWAP",
+    "UB-USDT-SWAP",
+    "BEAT-USDT-SWAP",
+    "MMT-USDT-SWAP"
+   ],
+   "short": [
+    "ALLO-USDT-SWAP",
+    "SOON-USDT-SWAP",
+    "ESP-USDT-SWAP",
+    "KAITO-USDT-SWAP",
+    "ORDI-USDT-SWAP",
+    "ZAMA-USDT-SWAP",
+    "WLD-USDT-SWAP",
+    "TRUMP-USDT-SWAP"
+   ],
+   "complete": true,
+   "long_gross": -0.06593315673614375,
+   "short_gross": 0.03625630287725065,
+   "fees": 0.0024,
+   "net": -0.1045894596133944,
+   "missing_long": [],
+   "missing_short": []
+  },
+  {
+   "open_ts": 1785643200000,
+   "close_ts": 1785816000000,
+   "long": [
+    "ENA-USDT-SWAP",
+    "SOON-USDT-SWAP",
+    "ORDI-USDT-SWAP",
+    "ADA-USDT-SWAP",
+    "PUMP-USDT-SWAP",
+    "UB-USDT-SWAP",
+    "HOME-USDT-SWAP",
+    "GIGGLE-USDT-SWAP"
+   ],
+   "short": [
+    "ALLO-USDT-SWAP",
+    "LAB-USDT-SWAP",
+    "BEAT-USDT-SWAP",
+    "MMT-USDT-SWAP",
+    "KAITO-USDT-SWAP",
+    "BASED-USDT-SWAP",
+    "AAVE-USDT-SWAP",
+    "ONDO-USDT-SWAP"
+   ],
+   "complete": true,
+   "long_gross": 0.010881612207830751,
+   "short_gross": -0.061448186232450644,
+   "fees": 0.0024,
+   "net": 0.0699297984402814,
+   "missing_long": [],
+   "missing_short": []
+  },
+  {
+   "open_ts": 1785816000000,
+   "close_ts": 1785988800000,
+   "long": [
+    "AVAX-USDT-SWAP",
+    "PUMP-USDT-SWAP",
+    "WLD-USDT-SWAP",
+    "ENA-USDT-SWAP",
+    "ADA-USDT-SWAP",
+    "UB-USDT-SWAP",
+    "BICO-USDT-SWAP",
+    "HOME-USDT-SWAP"
+   ],
+   "short": [
+    "GIGGLE-USDT-SWAP",
+    "BEAT-USDT-SWAP",
+    "MMT-USDT-SWAP",
+    "KAITO-USDT-SWAP",
+    "UNI-USDT-SWAP",
+    "ZAMA-USDT-SWAP",
+    "ORDI-USDT-SWAP",
+    "CFX-USDT-SWAP"
+   ],
+   "complete": true,
+   "long_gross": 0.05150839851929234,
+   "short_gross": -0.053678692531339944,
+   "fees": 0.0024,
+   "net": 0.10278709105063229,
+   "missing_long": [],
+   "missing_short": []
+  },
+  {
+   "open_ts": 1785988800000,
+   "close_ts": 1786161600000,
+   "long": [
+    "PIPPIN-USDT-SWAP",
+    "DOT-USDT-SWAP",
+    "BASED-USDT-SWAP",
+    "LIT-USDT-SWAP",
+    "HYPE-USDT-SWAP",
+    "PUMP-USDT-SWAP",
+    "HOME-USDT-SWAP",
+    "BICO-USDT-SWAP"
+   ],
+   "short": [
+    "BEAT-USDT-SWAP",
+    "GIGGLE-USDT-SWAP",
+    "UB-USDT-SWAP",
+    "KAITO-USDT-SWAP",
+    "LAB-USDT-SWAP",
+    "ORDI-USDT-SWAP",
+    "XRP-USDT-SWAP",
+    "AAVE-USDT-SWAP"
+   ],
+   "complete": true,
+   "long_gross": 0.11954023876732008,
+   "short_gross": -0.00033702459705850507,
+   "fees": 0.0024,
+   "net": 0.11747726336437858,
+   "missing_long": [],
+   "missing_short": []
+  },
+  {
+   "open_ts": 1786161600000,
+   "close_ts": 1786334400000,
+   "long": [
+    "UNI-USDT-SWAP",
+    "LIT-USDT-SWAP",
+    "UB-USDT-SWAP",
+    "RIVER-USDT-SWAP",
+    "BSB-USDT-SWAP",
+    "ALLO-USDT-SWAP",
+    "MMT-USDT-SWAP",
+    "BICO-USDT-SWAP"
+   ],
+   "short": [
+    "BEAT-USDT-SWAP",
+    "KAITO-USDT-SWAP",
+    "LAB-USDT-SWAP",
+    "NEAR-USDT-SWAP",
+    "PUMP-USDT-SWAP",
+    "ONDO-USDT-SWAP",
+    "DOT-USDT-SWAP",
+    "WLD-USDT-SWAP"
+   ],
+   "complete": true,
+   "long_gross": -0.09370564139538438,
+   "short_gross": 0.03653258112240301,
+   "fees": 0.0024,
+   "net": -0.1326382225177874,
+   "missing_long": [],
+   "missing_short": []
+  },
+  {
+   "open_ts": 1786334400000,
+   "close_ts": 1786507200000,
+   "long": [
+    "SOL-USDT-SWAP",
+    "RAVE-USDT-SWAP",
+    "WLD-USDT-SWAP",
+    "PENGU-USDT-SWAP",
+    "PUMP-USDT-SWAP",
+    "MMT-USDT-SWAP",
+    "ESP-USDT-SWAP",
+    "BEAT-USDT-SWAP"
+   ],
+   "short": [
+    "KAITO-USDT-SWAP",
+    "UB-USDT-SWAP",
+    "RIVER-USDT-SWAP",
+    "BSB-USDT-SWAP",
+    "BASED-USDT-SWAP",
+    "LAB-USDT-SWAP",
+    "ENA-USDT-SWAP",
+    "HYPE-USDT-SWAP"
+   ],
+   "complete": true,
+   "long_gross": -0.07921087119640569,
+   "short_gross": -0.008456930833508014,
+   "fees": 0.0024,
+   "net": -0.07315394036289767,
+   "missing_long": [],
+   "missing_short": []
+  },
+  {
+   "open_ts": 1786507200000,
+   "close_ts": 1786680000000,
+   "long": [
+    "MMT-USDT-SWAP",
+    "UB-USDT-SWAP",
+    "LINK-USDT-SWAP",
+    "PEOPLE-USDT-SWAP",
+    "WLD-USDT-SWAP",
+    "ESP-USDT-SWAP",
+    "PUMP-USDT-SWAP",
+    "CRV-USDT-SWAP"
+   ],
+   "short": [
+    "BEAT-USDT-SWAP",
+    "BICO-USDT-SWAP",
+    "KAITO-USDT-SWAP",
+    "RAVE-USDT-SWAP",
+    "ADA-USDT-SWAP",
+    "RIVER-USDT-SWAP",
+    "UNI-USDT-SWAP",
+    "ONDO-USDT-SWAP"
+   ],
+   "complete": true,
+   "long_gross": -0.02217996629079287,
+   "short_gross": -0.12827077099000772,
+   "fees": 0.0024,
+   "net": 0.10369080469921485,
+   "missing_long": [],
+   "missing_short": []
+  },
+  {
+   "open_ts": 1786680000000,
+   "close_ts": 1786852800000,
+   "long": [
+    "BNB-USDT-SWAP",
+    "HYPE-USDT-SWAP",
+    "PUMP-USDT-SWAP",
+    "LINK-USDT-SWAP",
+    "AVNT-USDT-SWAP",
+    "HOME-USDT-SWAP",
+    "EDEN-USDT-SWAP",
+    "APR-USDT-SWAP"
+   ],
+   "short": [
+    "BEAT-USDT-SWAP",
+    "KAITO-USDT-SWAP",
+    "BICO-USDT-SWAP",
+    "LAB-USDT-SWAP",
+    "ALLO-USDT-SWAP",
+    "UNI-USDT-SWAP",
+    "MMT-USDT-SWAP",
+    "PEOPLE-USDT-SWAP"
+   ],
+   "complete": true,
+   "long_gross": -0.17571631904434964,
+   "short_gross": -0.1531437492143481,
+   "fees": 0.0024,
+   "net": -0.024972569830001554,
+   "missing_long": [],
+   "missing_short": []
+  },
+  {
+   "open_ts": 1786852800000,
+   "close_ts": 1787025600000,
+   "long": [
+    "ROBO-USDT-SWAP",
+    "XPL-USDT-SWAP",
+    "WLFI-USDT-SWAP",
+    "WLD-USDT-SWAP",
+    "LINK-USDT-SWAP",
+    "AVNT-USDT-SWAP",
+    "BASED-USDT-SWAP",
+    "H-USDT-SWAP"
+   ],
+   "short": [
+    "APR-USDT-SWAP",
+    "BEAT-USDT-SWAP",
+    "BICO-USDT-SWAP",
+    "LAB-USDT-SWAP",
+    "KAITO-USDT-SWAP",
+    "HOME-USDT-SWAP",
+    "GIGGLE-USDT-SWAP",
+    "UB-USDT-SWAP"
+   ],
+   "complete": true,
+   "long_gross": NaN,
+   "short_gross": NaN,
+   "fees": 0.0024,
+   "net": NaN,
+   "missing_long": [],
+   "missing_short": []
+  },
+  {
+   "open_ts": 1787025600000,
+   "close_ts": 1787198400000,
+   "long": [
+    "CRV-USDT-SWAP",
+    "GIGGLE-USDT-SWAP",
+    "POL-USDT-SWAP",
+    "WLFI-USDT-SWAP",
+    "ETHFI-USDT-SWAP",
+    "ENSO-USDT-SWAP",
+    "PIEVERSE-USDT-SWAP",
+    "CHIP-USDT-SWAP"
+   ],
+   "short": [
+    "APR-USDT-SWAP",
+    "HOME-USDT-SWAP",
+    "KAITO-USDT-SWAP",
+    "ROBO-USDT-SWAP",
+    "BICO-USDT-SWAP",
+    "GALA-USDT-SWAP",
+    "EDEN-USDT-SWAP",
+    "AVNT-USDT-SWAP"
+   ],
+   "complete": true,
+   "long_gross": 0.01785109065452191,
+   "short_gross": -0.015919006113140774,
+   "fees": 0.0024,
+   "net": 0.031370096767662684,
+   "missing_long": [],
+   "missing_short": []
+  },
+  {
+   "open_ts": 1787198400000,
+   "close_ts": 1787371200000,
+   "long": [
+    "SOL-USDT-SWAP",
+    "ZEC-USDT-SWAP",
+    "LIT-USDT-SWAP",
+    "PUMP-USDT-SWAP",
+    "TRUMP-USDT-SWAP",
+    "ETH-USDT-SWAP",
+    "HYPE-USDT-SWAP",
+    "EDEN-USDT-SWAP"
+   ],
+   "short": [
+    "BEAT-USDT-SWAP",
+    "H-USDT-SWAP",
+    "BICO-USDT-SWAP",
+    "HOME-USDT-SWAP",
+    "ROBO-USDT-SWAP",
+    "APR-USDT-SWAP",
+    "LAB-USDT-SWAP",
+    "KAITO-USDT-SWAP"
+   ],
+   "complete": true,
+   "long_gross": NaN,
+   "short_gross": NaN,
+   "fees": 0.0024,
+   "net": NaN,
+   "missing_long": [],
+   "missing_short": []
+  },
+  {
+   "open_ts": 1787371200000,
+   "close_ts": 1787544000000,
+   "long": [
+    "MOODENG-USDT-SWAP",
+    "DASH-USDT-SWAP",
+    "GALA-USDT-SWAP",
+    "TRB-USDT-SWAP",
+    "PEOPLE-USDT-SWAP",
+    "ENS-USDT-SWAP",
+    "STX-USDT-SWAP",
+    "USELESS-USDT-SWAP"
+   ],
+   "short": [
+    "HOME-USDT-SWAP",
+    "ENSO-USDT-SWAP",
+    "APR-USDT-SWAP",
+    "EDEN-USDT-SWAP",
+    "ATOM-USDT-SWAP",
+    "MORPHO-USDT-SWAP",
+    "MMT-USDT-SWAP",
+    "ROBO-USDT-SWAP"
+   ],
+   "complete": true,
+   "long_gross": -0.07036526017773577,
+   "short_gross": -0.07420317740895299,
+   "fees": 0.0024,
+   "net": 0.0014379172312172224,
+   "missing_long": [],
+   "missing_short": []
+  },
+  {
+   "open_ts": 1787544000000,
+   "close_ts": 1787716800000,
+   "long": [
+    "PENGU-USDT-SWAP",
+    "PUMP-USDT-SWAP",
+    "LIT-USDT-SWAP",
+    "ZRO-USDT-SWAP",
+    "AAVE-USDT-SWAP",
+    "ENA-USDT-SWAP",
+    "ZEC-USDT-SWAP",
+    "TRUMP-USDT-SWAP"
+   ],
+   "short": [
+    "KAITO-USDT-SWAP",
+    "WLFI-USDT-SWAP",
+    "ORDI-USDT-SWAP",
+    "BEAT-USDT-SWAP",
+    "PEOPLE-USDT-SWAP",
+    "AVAX-USDT-SWAP",
+    "FIL-USDT-SWAP",
+    "ASTER-USDT-SWAP"
+   ],
+   "complete": true,
+   "long_gross": -0.06538757605087436,
+   "short_gross": -0.03351990493004316,
+   "fees": 0.0024,
+   "net": -0.034267671120831206,
+   "missing_long": [],
+   "missing_short": []
+  },
+  {
+   "open_ts": 1787716800000,
+   "close_ts": 1787918400000,
+   "long": [
+    "HYPE-USDT-SWAP",
+    "SOL-USDT-SWAP",
+    "ZRO-USDT-SWAP",
+    "TAO-USDT-SWAP",
+    "ASTER-USDT-SWAP",
+    "PENGU-USDT-SWAP",
+    "POL-USDT-SWAP",
+    "STX-USDT-SWAP"
+   ],
+   "short": [
+    "PEOPLE-USDT-SWAP",
+    "ENA-USDT-SWAP",
+    "TRUMP-USDT-SWAP",
+    "DOT-USDT-SWAP",
+    "BEAT-USDT-SWAP",
+    "ADA-USDT-SWAP",
+    "SUI-USDT-SWAP",
+    "DASH-USDT-SWAP"
+   ],
+   "complete": true,
+   "long_gross": -0.0017425188635566968,
+   "short_gross": 0.06409627948896589,
+   "fees": 0.0024,
+   "net": -0.06823879835252258,
+   "missing_long": [],
+   "missing_short": []
+  },
+  {
+   "open_ts": 1787918400000,
+   "close_ts": 1788163200000,
+   "long": [
+    "UNI-USDT-SWAP",
+    "SOL-USDT-SWAP",
+    "FARTCOIN-USDT-SWAP",
+    "ENA-USDT-SWAP",
+    "TRUMP-USDT-SWAP",
+    "BICO-USDT-SWAP",
+    "CHIP-USDT-SWAP",
+    "EDEN-USDT-SWAP"
+   ],
+   "short": [
+    "POL-USDT-SWAP",
+    "XPL-USDT-SWAP",
+    "INJ-USDT-SWAP",
+    "XLM-USDT-SWAP",
+    "BCH-USDT-SWAP",
+    "ADA-USDT-SWAP",
+    "FIL-USDT-SWAP",
+    "ZEC-USDT-SWAP"
+   ],
+   "complete": true,
+   "long_gross": -0.08204228286482654,
+   "short_gross": -0.03705367087262604,
+   "fees": 0.0024,
+   "net": -0.0473886119922005,
+   "missing_long": [],
+   "missing_short": []
+  },
+  {
+   "open_ts": 1788163200000,
+   "close_ts": 1788336000000,
+   "long": [
+    "BEAT-USDT-SWAP",
+    "GIGGLE-USDT-SWAP",
+    "ZEC-USDT-SWAP",
+    "LIT-USDT-SWAP",
+    "LAB-USDT-SWAP",
+    "CHIP-USDT-SWAP",
+    "DASH-USDT-SWAP",
+    "UNI-USDT-SWAP"
+   ],
+   "short": [
+    "BICO-USDT-SWAP",
+    "FARTCOIN-USDT-SWAP",
+    "RIVER-USDT-SWAP",
+    "TRUMP-USDT-SWAP",
+    "WLD-USDT-SWAP",
+    "ENA-USDT-SWAP",
+    "PENGU-USDT-SWAP",
+    "TAO-USDT-SWAP"
+   ],
+   "complete": true,
+   "long_gross": NaN,
+   "short_gross": NaN,
+   "fees": 0.0024,
+   "net": NaN,
+   "missing_long": [],
+   "missing_short": []
+  },
+  {
+   "open_ts": 1788336000000,
+   "close_ts": 1788508800000,
+   "long": [
+    "STX-USDT-SWAP",
+    "APR-USDT-SWAP",
+    "PENDLE-USDT-SWAP",
+    "AR-USDT-SWAP",
+    "NOT-USDT-SWAP",
+    "EGLD-USDT-SWAP",
+    "PYTH-USDT-SWAP",
+    "0G-USDT-SWAP"
+   ],
+   "short": [
+    "LIGHT-USDT-SWAP",
+    "BILL-USDT-SWAP",
+    "EDEN-USDT-SWAP",
+    "ACT-USDT-SWAP",
+    "GIGGLE-USDT-SWAP",
+    "PNUT-USDT-SWAP",
+    "CC-USDT-SWAP",
+    "HOME-USDT-SWAP"
+   ],
+   "complete": true,
+   "long_gross": 0.050408922962687355,
+   "short_gross": 0.02431480730073024,
+   "fees": 0.0024,
+   "net": 0.023694115661957116,
+   "missing_long": [],
+   "missing_short": []
+  },
+  {
+   "open_ts": 1788508800000,
+   "close_ts": 1788768000000,
+   "long": [
+    "FIL-USDT-SWAP",
+    "XPL-USDT-SWAP",
+    "ZEC-USDT-SWAP",
+    "UNI-USDT-SWAP",
+    "LIT-USDT-SWAP",
+    "ARB-USDT-SWAP",
+    "CHIP-USDT-SWAP",
+    "USELESS-USDT-SWAP"
+   ],
+   "short": [
+    "0G-USDT-SWAP",
+    "PUMP-USDT-SWAP",
+    "BEAT-USDT-SWAP",
+    "PENGU-USDT-SWAP",
+    "TRUMP-USDT-SWAP",
+    "BICO-USDT-SWAP",
+    "TRX-USDT-SWAP",
+    "NEAR-USDT-SWAP"
+   ],
+   "complete": true,
+   "long_gross": 0.05013398657681109,
+   "short_gross": 0.021420619720791526,
+   "fees": 0.0024,
+   "net": 0.026313366856019565,
+   "missing_long": [],
+   "missing_short": []
+  },
+  {
+   "open_ts": 1788768000000,
+   "close_ts": 1788940800000,
+   "long": [
+    "LINK-USDT-SWAP",
+    "JUP-USDT-SWAP",
+    "TAO-USDT-SWAP",
+    "WLD-USDT-SWAP",
+    "NEAR-USDT-SWAP",
+    "ARB-USDT-SWAP",
+    "ZEC-USDT-SWAP",
+    "DASH-USDT-SWAP"
+   ],
+   "short": [
+    "APR-USDT-SWAP",
+    "CHIP-USDT-SWAP",
+    "EGLD-USDT-SWAP",
+    "XPL-USDT-SWAP",
+    "PUMP-USDT-SWAP",
+    "TRUMP-USDT-SWAP",
+    "XRP-USDT-SWAP",
+    "ADA-USDT-SWAP"
+   ],
+   "complete": true,
+   "long_gross": -0.0018689576600519897,
+   "short_gross": 0.056888285769928215,
+   "fees": 0.0024,
+   "net": -0.061157243429980204,
+   "missing_long": [],
+   "missing_short": []
+  },
+  {
+   "open_ts": 1788940800000,
+   "close_ts": 1789113600000,
+   "long": [
+    "PUMP-USDT-SWAP",
+    "LIT-USDT-SWAP",
+    "WLD-USDT-SWAP",
+    "ZEC-USDT-SWAP",
+    "DOOD-USDT-SWAP",
+    "INJ-USDT-SWAP",
+    "DOT-USDT-SWAP",
+    "USELESS-USDT-SWAP"
+   ],
+   "short": [
+    "ARB-USDT-SWAP",
+    "PENGU-USDT-SWAP",
+    "TRUMP-USDT-SWAP",
+    "ENA-USDT-SWAP",
+    "UNI-USDT-SWAP",
+    "DASH-USDT-SWAP",
+    "OP-USDT-SWAP",
+    "AAVE-USDT-SWAP"
+   ],
+   "complete": true,
+   "long_gross": -0.13498008971318254,
+   "short_gross": -0.11790945750112936,
+   "fees": 0.0024,
+   "net": -0.019470632212053182,
+   "missing_long": [],
+   "missing_short": []
+  },
+  {
+   "open_ts": 1789113600000,
+   "close_ts": 1789286400000,
+   "long": [
+    "BTC-USDT-SWAP",
+    "LIT-USDT-SWAP",
+    "USELESS-USDT-SWAP",
+    "ETH-USDT-SWAP",
+    "DOT-USDT-SWAP",
+    "KAT-USDT-SWAP",
+    "NEAR-USDT-SWAP",
+    "ETHFI-USDT-SWAP"
+   ],
+   "short": [
+    "BEAT-USDT-SWAP",
+    "WLD-USDT-SWAP",
+    "ARB-USDT-SWAP",
+    "PUMP-USDT-SWAP",
+    "TRUMP-USDT-SWAP",
+    "UNI-USDT-SWAP",
+    "BCH-USDT-SWAP",
+    "ENA-USDT-SWAP"
+   ],
+   "complete": true,
+   "long_gross": -0.03347076339431945,
+   "short_gross": 0.005128102770677892,
+   "fees": 0.0024,
+   "net": -0.040998866164997344,
+   "missing_long": [],
+   "missing_short": []
+  },
+  {
+   "open_ts": 1789286400000,
+   "close_ts": 1789459200000,
+   "long": [
+    "ETH-USDT-SWAP",
+    "LTC-USDT-SWAP",
+    "WLFI-USDT-SWAP",
+    "UNI-USDT-SWAP",
+    "ETHFI-USDT-SWAP",
+    "RIVER-USDT-SWAP",
+    "MET-USDT-SWAP",
+    "LAB-USDT-SWAP"
+   ],
+   "short": [
+    "KAT-USDT-SWAP",
+    "LIT-USDT-SWAP",
+    "BCH-USDT-SWAP",
+    "ZEC-USDT-SWAP",
+    "NEAR-USDT-SWAP",
+    "XPL-USDT-SWAP",
+    "DOT-USDT-SWAP",
+    "PUMP-USDT-SWAP"
+   ],
+   "complete": true,
+   "long_gross": -0.06641833360496827,
+   "short_gross": -0.00026827109318414144,
+   "fees": 0.0024,
+   "net": -0.06855006251178412,
+   "missing_long": [],
+   "missing_short": []
+  },
+  {
+   "open_ts": 1789459200000,
+   "close_ts": 1789632000000,
+   "long": [
+    "INJ-USDT-SWAP",
+    "AAVE-USDT-SWAP",
+    "XRP-USDT-SWAP",
+    "PUMP-USDT-SWAP",
+    "WLFI-USDT-SWAP",
+    "XLM-USDT-SWAP",
+    "UNI-USDT-SWAP",
+    "FIL-USDT-SWAP"
+   ],
+   "short": [
+    "LAB-USDT-SWAP",
+    "ETHFI-USDT-SWAP",
+    "RIVER-USDT-SWAP",
+    "USELESS-USDT-SWAP",
+    "MET-USDT-SWAP",
+    "WLD-USDT-SWAP",
+    "DASH-USDT-SWAP",
+    "DOT-USDT-SWAP"
+   ],
+   "complete": true,
+   "long_gross": -0.016884571502058646,
+   "short_gross": 0.06926197887929114,
+   "fees": 0.0024,
+   "net": -0.08854655038134979,
+   "missing_long": [],
+   "missing_short": []
+  },
+  {
+   "open_ts": 1789632000000,
+   "close_ts": 1789804800000,
+   "long": [
+    "LIT-USDT-SWAP",
+    "DASH-USDT-SWAP",
+    "UNI-USDT-SWAP",
+    "ENA-USDT-SWAP",
+    "NEAR-USDT-SWAP",
+    "ARB-USDT-SWAP",
+    "ZEC-USDT-SWAP",
+    "USELESS-USDT-SWAP"
+   ],
+   "short": [
+    "FIL-USDT-SWAP",
+    "INJ-USDT-SWAP",
+    "CRV-USDT-SWAP",
+    "ETHFI-USDT-SWAP",
+    "XRP-USDT-SWAP",
+    "TAO-USDT-SWAP",
+    "ADA-USDT-SWAP",
+    "LTC-USDT-SWAP"
+   ],
+   "complete": true,
+   "long_gross": 0.1597927333565627,
+   "short_gross": 0.15264345454096548,
+   "fees": 0.0024,
+   "net": 0.0047492788155972104,
+   "missing_long": [],
+   "missing_short": []
+  }
+ ]
+}

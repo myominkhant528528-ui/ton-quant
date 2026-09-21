@@ -1,0 +1,2919 @@
+{
+  "date": "2026-08-10",
+  "model": "qwen3-4b-4bit",
+  "generated": "2026-08-10T07:42:09",
+  "wallets": [
+    {
+      "addr": "0:1b84c5a8b28c5ea174c98bd4e5c34f4c1233d5bdd25ef63d270ba2baae8d1dd6",
+      "name": "amore-season.ton",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "copy_ok": false,
+      "conviction": 0.0,
+      "reason": "llm_unavailable (RuntimeError); floor"
+    },
+    {
+      "addr": "0:7b0dcf0a1c4446ea0894cfa5a4c929e4630729d6e106a220ad056c4b25aebe10",
+      "name": null,
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "copy_ok": false,
+      "conviction": 0.0,
+      "reason": "llm_unavailable (RuntimeError); floor"
+    },
+    {
+      "addr": "0:a8f641e2c97deabe8bef338d20387f07fa4ef71e2b0c7d27f9c6ae4c15378fd7",
+      "name": "plug.ton",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "copy_ok": false,
+      "conviction": 0.0,
+      "reason": "llm_unavailable (RuntimeError); floor"
+    },
+    {
+      "addr": "0:f8b8635d0786b77f9da660e65fd31d670a675dd4302facba692f46b571eb5360",
+      "name": "selling-domain-dogs.ton",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "copy_ok": false,
+      "conviction": 0.0,
+      "reason": "llm_unavailable (RuntimeError); floor"
+    },
+    {
+      "addr": "0:3b865f3176d329c18280bb36477a2ece4a726955ace73bb27014b5588d8e00b7",
+      "name": null,
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "copy_ok": false,
+      "conviction": 0.0,
+      "reason": "llm_unavailable (RuntimeError); floor"
+    },
+    {
+      "addr": "0:d8cd999fb2b1b384e6ca254c3883375e23111a8b78c015b886286c31bf11e29d",
+      "name": "Pavel Durov",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "copy_ok": false,
+      "conviction": 0.0,
+      "reason": "llm_unavailable (RuntimeError); floor"
+    },
+    {
+      "addr": "0:484b0ac9b4d429697b76a9adad8ee8886bb3b91e1d9728c608e65c51332431be",
+      "name": "utyadao.ton",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "copy_ok": false,
+      "conviction": 0.0,
+      "reason": "llm_unavailable (RuntimeError); floor"
+    },
+    {
+      "addr": "0:66d6105396c15092731cdd31e2719439936449c24485f66ba5134bc72442bfa5",
+      "name": null,
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "copy_ok": false,
+      "conviction": 0.0,
+      "reason": "llm_unavailable (RuntimeError); floor"
+    },
+    {
+      "addr": "0:fa23c4ec38d7220168911cd89849f64cce105346b6cae235b512673752a8d685",
+      "name": null,
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "copy_ok": false,
+      "conviction": 0.0,
+      "reason": "llm_unavailable (RuntimeError); floor"
+    },
+    {
+      "addr": "0:6ce8da34fc8f0ac49da75bd8486a04248d149a1822129d2ea7b220b02069bdcd",
+      "name": null,
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "copy_ok": false,
+      "conviction": 0.0,
+      "reason": "llm_unavailable (RuntimeError); floor"
+    },
+    {
+      "addr": "0:c8b0596f090b2415fe55ef2e0785f1c576992bfde436aeac75efcec3ab1f0fac",
+      "name": "hashtag-on-tele-gram.ton",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "copy_ok": false,
+      "conviction": 0.0,
+      "reason": "llm_unavailable (RuntimeError); floor"
+    },
+    {
+      "addr": "0:f2a2e706bf1295fa6388e30a99c431ce294aef002727946d013a85dfc1554317",
+      "name": null,
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "copy_ok": false,
+      "conviction": 0.0,
+      "reason": "llm_unavailable (RuntimeError); floor"
+    },
+    {
+      "addr": "0:d8e3e2ad5716b0654fd5bdaeca4ce865871f07a348c8d1a87279b613e58b8991",
+      "name": null,
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "copy_ok": false,
+      "conviction": 0.0,
+      "reason": "llm_unavailable (RuntimeError); floor"
+    },
+    {
+      "addr": "0:05820ee5d06dc31e3ba0cb3eaed05f03b407674df74814e440db790f9a502583",
+      "name": null,
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "copy_ok": false,
+      "conviction": 0.0,
+      "reason": "llm_unavailable (RuntimeError); floor"
+    },
+    {
+      "addr": "0:441db70005bbfd1d942c7e36c2324e2a3a2a6abf53cdcaaa612973ae4acdf66d",
+      "name": null,
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "copy_ok": false,
+      "conviction": 0.0,
+      "reason": "llm_unavailable (RuntimeError); floor"
+    },
+    {
+      "addr": "0:35376072a02379119a540c197b10d943881e252878751be9192c7f03811a7cc2",
+      "name": null,
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "copy_ok": false,
+      "conviction": 0.0,
+      "reason": "llm_unavailable (RuntimeError); floor"
+    },
+    {
+      "addr": "0:c54a7932ecbdcd0989c50bdb6f0ef715d79d1dbbd603e4fda81c8b7a4bdcae3a",
+      "name": null,
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "copy_ok": false,
+      "conviction": 0.0,
+      "reason": "llm_unavailable (RuntimeError); floor"
+    },
+    {
+      "addr": "0:66cec988ed6a39553375bc16c77945bb91f5a869ab0675a6d9aa41dba805f19a",
+      "name": "gwhale.ton",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "copy_ok": false,
+      "conviction": 0.0,
+      "reason": "llm_unavailable (RuntimeError); floor"
+    },
+    {
+      "addr": "0:8fe1c9a6545dbadd14470189970a36db4d783fe0523d5b665940d81fa63ee9db",
+      "name": "likethisshit.ton",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "copy_ok": false,
+      "conviction": 0.0,
+      "reason": "llm_unavailable (RuntimeError); floor"
+    },
+    {
+      "addr": "0:a201927ad1fc0783b98d30c12f534b9fd2a044096aaacbb0482d4c85457646b5",
+      "name": null,
+      "manip_risk": "low",
+      "flags": [],
+      "copy_ok": false,
+      "conviction": 0.0,
+      "reason": "llm_unavailable (RuntimeError); floor"
+    },
+    {
+      "addr": "0:b38f21836358743696bb83726be301357703063c8fddf6526136af43bbdbdcb7",
+      "name": null,
+      "manip_risk": "low",
+      "flags": [],
+      "copy_ok": false,
+      "conviction": 0.0,
+      "reason": "llm_unavailable (RuntimeError); floor"
+    },
+    {
+      "addr": "0:b7447263fce9d66162c7f18d81e61d93762b77012c1651a2e506b2b8d12630f1",
+      "name": null,
+      "manip_risk": "med",
+      "flags": [
+        "thin_liquidity"
+      ],
+      "copy_ok": false,
+      "conviction": 0.0,
+      "reason": "llm_unavailable (RuntimeError); floor"
+    },
+    {
+      "addr": "0:39a646268322cfc46dce6ac218e52cbf3b9dda082f88221329fa735d910451b7",
+      "name": null,
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "copy_ok": false,
+      "conviction": 0.0,
+      "reason": "llm_unavailable (RuntimeError); floor"
+    },
+    {
+      "addr": "0:153068d0ba386b012128fa7d883219ec9edf500172a2d9c7f41f04719a0488b8",
+      "name": null,
+      "manip_risk": "low",
+      "flags": [],
+      "copy_ok": false,
+      "conviction": 0.0,
+      "reason": "llm_unavailable (RuntimeError); floor"
+    },
+    {
+      "addr": "0:0b139b38d648c4b63d88730ff4a65d1f6dfadcd899f8ee3361640ce189893315",
+      "name": "frag.ton",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "copy_ok": false,
+      "conviction": 0.0,
+      "reason": "llm_unavailable (RuntimeError); floor"
+    },
+    {
+      "addr": "0:6858c761bdd9a462addfeabfa107d87479d2d68c9fa6fa0b52ec51fe7393dfad",
+      "name": null,
+      "manip_risk": "med",
+      "flags": [
+        "thin_liquidity"
+      ],
+      "copy_ok": false,
+      "conviction": 0.0,
+      "reason": "llm_unavailable (RuntimeError); floor"
+    },
+    {
+      "addr": "0:cace438a04a0678670017383d8b0fd359f2afd277e87cdb5e5cb03244017a277",
+      "name": null,
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "copy_ok": false,
+      "conviction": 0.0,
+      "reason": "llm_unavailable (RuntimeError); floor"
+    },
+    {
+      "addr": "0:3ff4f902a49b444ad6bb24cb7c7e49253f2603e620ddce4fb0be0927e697531e",
+      "name": null,
+      "manip_risk": "med",
+      "flags": [
+        "thin_liquidity"
+      ],
+      "copy_ok": false,
+      "conviction": 0.0,
+      "reason": "llm_unavailable (RuntimeError); floor"
+    },
+    {
+      "addr": "0:2ec95201b057952ea425eb94159499670646561ca5493689f459db47101bc51f",
+      "name": null,
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "copy_ok": false,
+      "conviction": 0.0,
+      "reason": "llm_unavailable (RuntimeError); floor"
+    },
+    {
+      "addr": "0:220d36f28f1440d3c5ea9636d2507146e8600545dd96d92345ce05c9e4db9f16",
+      "name": null,
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "copy_ok": false,
+      "conviction": 0.0,
+      "reason": "llm_unavailable (RuntimeError); floor"
+    },
+    {
+      "addr": "0:9650baefe1a7d54893516da54ee8b709a118ac76715aba39c1429b4a497047d1",
+      "name": null,
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "copy_ok": false,
+      "conviction": 0.0,
+      "reason": "llm_unavailable (RuntimeError); floor"
+    },
+    {
+      "addr": "0:2009400656991ac21b7160b31891f970844ba592be4d0b34d09e98f26fe22844",
+      "name": "gr4m.ton",
+      "manip_risk": "low",
+      "flags": [],
+      "copy_ok": false,
+      "conviction": 0.0,
+      "reason": "llm_unavailable (RuntimeError); floor"
+    },
+    {
+      "addr": "0:a212b811feed94df4108d86e51ccb7cb00d3a1ccecfc8d75392b66e454eb5ccd",
+      "name": null,
+      "manip_risk": "low",
+      "flags": [],
+      "copy_ok": false,
+      "conviction": 0.0,
+      "reason": "llm_unavailable (RuntimeError); floor"
+    },
+    {
+      "addr": "0:f405142df9074811bb23b91b0cab30e506450011f422c52843102a0a10e5d173",
+      "name": "hashtag-on-tele-g.ton",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "copy_ok": false,
+      "conviction": 0.0,
+      "reason": "llm_unavailable (RuntimeError); floor"
+    },
+    {
+      "addr": "0:d833462f172dbed49e2f4ec9ff18a531f142810afb3603940a26df305535ea86",
+      "name": null,
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "copy_ok": false,
+      "conviction": 0.0,
+      "reason": "llm_unavailable (RuntimeError); floor"
+    },
+    {
+      "addr": "0:b219653bbc495f3d4cc44e356ffc0f0df9c4b09f02c2ef984c46723b7e877703",
+      "name": null,
+      "manip_risk": "med",
+      "flags": [
+        "thin_liquidity"
+      ],
+      "copy_ok": false,
+      "conviction": 0.0,
+      "reason": "llm_unavailable (RuntimeError); floor"
+    },
+    {
+      "addr": "0:07b1a983d23838b86d05b420a42813f624f2cb4f4d91694d8ebacf0f5f4b02ad",
+      "name": null,
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "copy_ok": false,
+      "conviction": 0.0,
+      "reason": "llm_unavailable (RuntimeError); floor"
+    },
+    {
+      "addr": "0:6afbaf6ef8cdac70af0769cbf1e46037e9e845c0ff3943253795a5092841f712",
+      "name": null,
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "copy_ok": false,
+      "conviction": 0.0,
+      "reason": "llm_unavailable (RuntimeError); floor"
+    },
+    {
+      "addr": "0:a0a0406bcbe9fce84cb87416110e2c2eaa3a4380d32d526eb6541d1d69d3ec9a",
+      "name": "deleted.ton",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "copy_ok": false,
+      "conviction": 0.0,
+      "reason": "llm_unavailable (RuntimeError); floor"
+    },
+    {
+      "addr": "0:450a9aa768bccefb443dbac7a30703da1dd9bbf30089aae1949728cc5453ae70",
+      "name": null,
+      "manip_risk": "low",
+      "flags": [],
+      "copy_ok": false,
+      "conviction": 0.0,
+      "reason": "llm_unavailable (RuntimeError); floor"
+    },
+    {
+      "addr": "0:51667a57c36bee06e92bf3a11b277a28e2a1c304396c9910270d80e4b196d130",
+      "name": null,
+      "manip_risk": "med",
+      "flags": [
+        "thin_liquidity"
+      ],
+      "copy_ok": false,
+      "conviction": 0.0,
+      "reason": "llm_unavailable (RuntimeError); floor"
+    },
+    {
+      "addr": "0:1b39d40b6ba09ed5f1329bbc0ceb06f7406516f78914a96c8df7738115ba17f8",
+      "name": null,
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "copy_ok": false,
+      "conviction": 0.0,
+      "reason": "llm_unavailable (RuntimeError); floor"
+    },
+    {
+      "addr": "0:4a5d751cff2991a20d7a266373b566fbd077d1ed8b3cc33e346488b0340e44a7",
+      "name": "looksgoodsendit.ton",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "copy_ok": false,
+      "conviction": 0.0,
+      "reason": "llm_unavailable (RuntimeError); floor"
+    },
+    {
+      "addr": "0:46883193a3779b8407c63315e100e383f51881aca392e792b6188d4077bbbddd",
+      "name": null,
+      "manip_risk": "med",
+      "flags": [
+        "thin_liquidity"
+      ],
+      "copy_ok": false,
+      "conviction": 0.0,
+      "reason": "llm_unavailable (RuntimeError); floor"
+    },
+    {
+      "addr": "0:80db17644438f44432748da66d5a9464778d96c2d3323cfb7a662940d11c0e3a",
+      "name": null,
+      "manip_risk": "med",
+      "flags": [
+        "thin_liquidity"
+      ],
+      "copy_ok": false,
+      "conviction": 0.0,
+      "reason": "llm_unavailable (RuntimeError); floor"
+    }
+  ],
+  "tokens": [
+    {
+      "sym": "EQA1R_LuQC…",
+      "addr": "EQA1R_LuQCLHlMgOo1S4G7Y7W1cd0FrAkbA10Zq7rddKxi9k",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQA61O71y4…",
+      "addr": "EQA61O71y4I8oZDXRvMOrHtub2vxcPI54f1oGA_e4h0JL64L",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQA67hVnG_…",
+      "addr": "EQA67hVnG_63GnlIgpRWFT2oMJiC1DkekR4Z5bX-vhX3QNsi",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQA69Mhu92…",
+      "addr": "EQA69Mhu92OBCtAse0SJbv3_3VpiVV10d5vLUw_3Bg8Myt_0",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQA69XQSXb…",
+      "addr": "EQA69XQSXbB6zXv36mTFaiazCBSuLj_zT6tH44m6ohvjGv02",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQA6G0uVER…",
+      "addr": "EQA6G0uVERDZTkLNa0drWBna1F5TSbogy7UXEWU5ERHz4uJL",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQA6JYz3Gu…",
+      "addr": "EQA6JYz3GuEdMBwrRvYX61FuGna45gUyDBxqseLmumygmHb0",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQA6KVkWh1…",
+      "addr": "EQA6KVkWh1na5tA-XPGJsevjmrm90Zq_2pi9ljowDE5o4xaC",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQA6ObSo9T…",
+      "addr": "EQA6ObSo9TtyE8gU3FA_u3ogAWLBsy0IjoONtCKmbAjBqh8h",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQA6VT7WUn…",
+      "addr": "EQA6VT7WUn0BhtwJ3OYlSH0WubVXHBzHymBCcVCDsO8FWVWD",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQA6Ze_BBi…",
+      "addr": "EQA6Ze_BBi0e-uoOLugKQEIrteRsuLbQFj5S6lhqdnYEVC-0",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQA6b9p3IL…",
+      "addr": "EQA6b9p3ILwLkcKiOra-Be1XjZRtQWE5MPBpjZLtuGRxlS9Y",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQA6kIgw_H…",
+      "addr": "EQA6kIgw_H_dFqgOouoAW9lm0kxnhk_5DSa7pSsu2qcvHdNI",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQA6oZqfng…",
+      "addr": "EQA6oZqfngpjbXn7SJdBjIYEoOxt_NusP4ULYCVAuQyG65G3",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQA6sBJlj0…",
+      "addr": "EQA6sBJlj0HTA0T9zdxm-KmafxqcQyyvFZAdBNMPzk1ekNdc",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQA6t28Uni…",
+      "addr": "EQA6t28UniHhfdXLf4CrdW8oR4RpE7WULd9IuugX8FscLhLn",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQA6ulHH35…",
+      "addr": "EQA6ulHH35svS8QQz0l5EetinJLSHAFKHRMJ2E7Ax14Rluc2",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQA6y83KY0…",
+      "addr": "EQA6y83KY0_svjvSiYMBMPQPboGsKTIteXV7uv1-_x7L3hTB",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQA9yEI39_…",
+      "addr": "EQA9yEI39_CkqcPYSc-Yn2kMPPhFZmIAmDH5fmhazDFYS-fl",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQACM1Tw6E…",
+      "addr": "EQACM1Tw6EJCorGrIzHY5PM_enV-awK6R2CSVGdEVm2pSsUM",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "TONY",
+      "addr": "EQAH8OSNymywSQyPE1t0tULFlxO__yhUmlscpTCfMLf_TONY",
+      "manip_risk": "high",
+      "flags": [
+        "wash",
+        "f_6c6522ff",
+        "f_4b8e1a23",
+        "f_3e8e6b93",
+        "f_de36d975"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAIb6Kmdf…",
+      "addr": "EQAIb6KmdfdDR7CN1GBqVJuP25iCnLKCvBlJ07Evuu2dzP5f",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAJ8uWd7E…",
+      "addr": "EQAJ8uWd7EBqsmpSWaRdf_I-8R8-XHwh3gsNKhy-UrdrPcUo",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAKBA1_-w…",
+      "addr": "EQAKBA1_-wWP31MjbFp-CiU7RZYsUetkVoHTHTuYgR8KhuPE",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAKx0KxQ8…",
+      "addr": "EQAKx0KxQ8R7bFX8EtlMMgDJ0IyjbPJSOh-xlZcHeSrCMqsA",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAOGXscdL…",
+      "addr": "EQAOGXscdLLxePpymILh_bu6hkZgsh-Pwq4B5StFlDjc44IG",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAONWhv3N…",
+      "addr": "EQAONWhv3NkoQrJPMvB67_yknWLPxVX8wPefTPV75h7ZmVKO",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAOY0xbKV…",
+      "addr": "EQAOY0xbKV1g3e2V7jdo5erF5u-5h19qB4IpPkK0RPy0RKGV",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAO_tYpLb…",
+      "addr": "EQAO_tYpLbPq-GOXegYTYtFaQ0tMkxLBxzYF8cUCGGWAj_aA",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAOp_GJvX…",
+      "addr": "EQAOp_GJvXdf-KOyrzwXV5Uf0Pzbsc5QXLRPwPc6dj1YnhPb",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAOyf4n-7…",
+      "addr": "EQAOyf4n-7wTtTI45LGQwfacEfnkpOa9v6bjpwgeCHX5WW8y",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAQXlWJvG…",
+      "addr": "EQAQXlWJvGbbFfE8F3oS8s87lIgdovS455IsWFaRdmJetTon",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQATcUc69s…",
+      "addr": "EQATcUc69sGSCCMSadsVUKdGwM1BMKS-HKCWGPk60xZGgwsK",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQATpT6zc9…",
+      "addr": "EQATpT6zc9MrWnkjijj9rF0fyRT51WxsXAeBk9AQN2eRk4Nv",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAX9J60va…",
+      "addr": "EQAX9J60va-0wIDMdqGLRMf7imJvG0Ytyi3Yxnq9y-nbNCq2",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAfRaTyvu…",
+      "addr": "EQAfRaTyvu_3cKOR456haiIN4BAhcjqkjtCucMUL08VlRNhH",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAi4Zk5ne…",
+      "addr": "EQAi4Zk5ne5eNLukrzH3r0Qs0s56rrFP7Om_9-DKkEdzg-pw",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAm-H72S6…",
+      "addr": "EQAm-H72S6NMaO3KEP7jFXPnupsgO0s-mggOKW89l098lL57",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAm-hNIjG…",
+      "addr": "EQAm-hNIjGBqWeN5bP4j55EU7px1HH7ge6I2nHAMUGHLaPhM",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAm0WeMiV…",
+      "addr": "EQAm0WeMiVU4yyP3-4Oj7Gw8y2pnQE1UUzI_M-jmPIQb-SCC",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAm4yyz06…",
+      "addr": "EQAm4yyz06js43ANzvjjX-iEXHBpFUCN9I6V1Tiw1FebNlRe",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAm5HVkMv…",
+      "addr": "EQAm5HVkMvZWepsxIEIQfsMln6YJJolGQmJxMLYU5V8h1abL",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAm9xnWCB…",
+      "addr": "EQAm9xnWCB0svMoS28516vNmCDKDeRZErZwOEhERiuaFKgVU",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAmAnqgWP…",
+      "addr": "EQAmAnqgWPqYZRX8VFPmFkQ4BEG-usOTKJ7dS4iQr5v_ZjeJ",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAmBV5LVs…",
+      "addr": "EQAmBV5LVsfKTUdhQQIz3jOePtuA9BJLq7C1Rui082v0aVF3",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAmB_sndV…",
+      "addr": "EQAmB_sndV45N-cmgT2tihQOcaf4EgT3nhhsvYeJ4UnICc0A",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAmDS3NS9…",
+      "addr": "EQAmDS3NS9BCLSP4djrt_B8vaSdJvV5JcrL4rMd___BFyVaH",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAmEzVGS5…",
+      "addr": "EQAmEzVGS5-86j6RZk42PeRoK_AJuXKrtSb5h1yDM49D1wzk",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAmGSxeHg…",
+      "addr": "EQAmGSxeHgU7zW9RQhMP9r5TNLcwoSkDvsT59-aNxnkVvwI2",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAmHxZ7mu…",
+      "addr": "EQAmHxZ7muN8QhJ1sqSsxd2Y1NXQrDne5iq1W3OgjYgNT_ry",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "MONKE",
+      "addr": "EQAmJaTOz6MeuCPA4fr8ugqgHd4TuO5-U1Fp5JX9HK9RrxZW",
+      "manip_risk": "med",
+      "flags": [
+        "thin_liquidity"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "med",
+          "med",
+          "med"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAmNuK8dd…",
+      "addr": "EQAmNuK8ddxGRwP74Xi-VhLNZWio9w2BoULMkNwX-bXsOkVx",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAmQ2hL2H…",
+      "addr": "EQAmQ2hL2H4A95Qq0pYvH9ir6F56PoliZNJbp50KULxiwpEr",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAmRXESGA…",
+      "addr": "EQAmRXESGA2sUc_UPGQ0qTJfOLU25ixfsE7elFwDI2eR3RE_",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAmSrUcEu…",
+      "addr": "EQAmSrUcEuB65xJ4qdDRawsWGLx_qhjQmnEhuygegg-GWkTP",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAmT22Q2a…",
+      "addr": "EQAmT22Q2aPyLeTPmkzbCC0oDoOsLxTjSbR2XvWltb49FsuV",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAmUtInjs…",
+      "addr": "EQAmUtInjsZtnJRpiOOyHomJiHmt2LTart01igMk0UjjlSPJ",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAmVFff4F…",
+      "addr": "EQAmVFff4F53sDQgzCJv1f3LlSofxJgRBEagsAvGocW2HY-2",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "TATER",
+      "addr": "EQAmVbnOPXMinHPATJidr7HqleQRfeDPJ3Stbgd70YwNq0N9",
+      "manip_risk": "med",
+      "flags": [
+        "thin_liquidity"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "med",
+          "med",
+          "med"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAmVeWCyP…",
+      "addr": "EQAmVeWCyPsKzpyy6zE-QzyZ0lH_7sFmmroWVxS0b_fJZ0Fd",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "HONK",
+      "addr": "EQAmWanX8ohlsG6qBpfL2ritCQ7tr7MlJpEK64Khm-O4742K",
+      "manip_risk": "high",
+      "flags": [
+        "wash",
+        "f_6c6522ff"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAmWdWzG4…",
+      "addr": "EQAmWdWzG4fuBRy_esum7AnopZaTxcmmH3JooDir9oykGshI",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "PEEPO",
+      "addr": "EQAmZFuDbV0Ze8yR3lh3v0n8FISN-s3Yi7M8URCT--qc_t8x",
+      "manip_risk": "high",
+      "flags": [
+        "wash",
+        "f_6c6522ff",
+        "f_4b8e1a23",
+        "f_3e8e6b93",
+        "f_de36d975"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAmaM1juM…",
+      "addr": "EQAmaM1juMlEL5F2pJHLrkc4abz-VUUSTzDkj6oYTA0HmYaB",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAmaMdwCm…",
+      "addr": "EQAmaMdwCmpZNJSRfvbNZDu1HkjFbw2VtvvI1FDKvLJMgyXE",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAmbBKdYv…",
+      "addr": "EQAmbBKdYvqcaIEoDX2iF01R727CIdv06v8BCrD2ELzWbycO",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAmbXjiqL…",
+      "addr": "EQAmbXjiqLPXW16g3PXdMRzLKyprUvx8K2pwenW4kTj17vHk",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "BOND",
+      "addr": "EQAmdLjlODBRz5Wyn04SeH_kx1V__X-ZSCwjRFnyYQnHkRdb",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAmdaFjLc…",
+      "addr": "EQAmdaFjLcbF-gLU3ASQ3GodhzHe9LWr3tsdqMeUeCb-ezBy",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAme5Z3_w…",
+      "addr": "EQAme5Z3_wsVhvSemTvwFToq2AIRz_NSfEdiKOgdI8H11EPh",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAmewWMVc…",
+      "addr": "EQAmewWMVccMpcKtgLUjcvkwGVSnzYIar2w39D-W_-Jp1U_V",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAmiAVqNk…",
+      "addr": "EQAmiAVqNkNobs8CXbt38JlNFlXJ0eztRlsP3Z27YF2DMvKr",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAmmPdBvJ…",
+      "addr": "EQAmmPdBvJMe00ZVck3_oQL46HPov6RMGoPW2ex-7kjI0Il1",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAmnA14Xe…",
+      "addr": "EQAmnA14XeBqTRHUqRlaqs_PPAtxBa-HI2d9oqHzdzAaMNUG",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAmos5Eel…",
+      "addr": "EQAmos5Eeldo1k5cDSwle5awz-DNwf4zKgtrZ_VwET6lR6k3",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAmrHtrkk…",
+      "addr": "EQAmrHtrkk3Em8RSEqoK50O02C542fk8zdEG18SwU4TRgIp4",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAmsQK_X-…",
+      "addr": "EQAmsQK_X-PCaD1j1GGbezh9fO2-Ig-S8BtXPQMe6jorcNuH",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "GRAMMING",
+      "addr": "EQAmsYIAadPQrEn-wZrRKwqhnReLDOeKl9T70umuk0MA1ULW",
+      "manip_risk": "high",
+      "flags": [
+        "wash",
+        "f_6c6522ff",
+        "f_4b8e1a23",
+        "f_3e8e6b93"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAmuf2yZ6…",
+      "addr": "EQAmuf2yZ6vUjhKViYT-IYWNFEgrO3W47o-w9-15q_iD4A5D",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAmvp1Vrr…",
+      "addr": "EQAmvp1Vrr0zY2--STdH-0X_mP5iCD61p2vNVJYwHlgBni2C",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "GROYP",
+      "addr": "EQAtwo6qMNwtr0iTA9eKVZ32cuACFJ0VKd78GrBWOe83-X1P",
+      "manip_risk": "high",
+      "flags": [
+        "f_4b8e1a23",
+        "f_3e8e6b93",
+        "f_de36d975"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "NOT",
+      "addr": "EQAvlWFDxGF2lXm67y4yzC17wYKD9A0guwPkMs1gOsM__NOT",
+      "manip_risk": "high",
+      "flags": [
+        "f_6c6522ff",
+        "f_5aa04323",
+        "f_4b8e1a23",
+        "f_3e8e6b93",
+        "f_aa5f8a7f"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAy_V-tHd…",
+      "addr": "EQAy_V-tHd02nVkzT2DB2bLG1NMULkEPsNp8v2RA4aTCeRLE",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQB02DJ0cd…",
+      "addr": "EQB02DJ0cdUD4iQDRbBv4aYG3htePHBRK1tGeRtCnatescK0",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQB6EC89Q4…",
+      "addr": "EQB6EC89Q4sPRto5zvJ0OqCXGMLE2URxTVWfolIcJgqYRoaZ",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQB6Ql1JE7…",
+      "addr": "EQB6Ql1JE7Hq0JuropLYschcu-WNt2vMmWF2-8mEMrK68nJn",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQB8ihuOwW…",
+      "addr": "EQB8ihuOwWWFDBoQ6JFgZHLRByt7VshDlzklpHF5NKs9a3QT",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQBE_gBrU3…",
+      "addr": "EQBE_gBrU3mPI9hHjlJoR_kYyrhQgyCFD6EUWfa42W8T7EBP",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQBIarXjfo…",
+      "addr": "EQBIarXjfolcXV0luzPBowRHWbDkFu9tHWGFT-b56Wl2vdLP",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EVAA",
+      "addr": "EQBKMfjX_a_dsOLm-juxyVZytFP7_KKnzGv6J01kGc72gVBp",
+      "manip_risk": "high",
+      "flags": [
+        "wash",
+        "f_6c6522ff",
+        "f_5aa04323",
+        "f_4b8e1a23",
+        "f_3e8e6b93"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "CHERRY",
+      "addr": "EQBKRSNRkeP1-2jcg5T_f__0s5Hj-vrbfNLMQy8dnZs7xd_p",
+      "manip_risk": "high",
+      "flags": [
+        "f_4b8e1a23",
+        "f_3e8e6b93",
+        "f_de36d975"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQBSCtnNQk…",
+      "addr": "EQBSCtnNQkeb_GFgw8MOQWaQKVoyOMfDgD4MPlTUlOdJ2QrC",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQBS_pB1B_…",
+      "addr": "EQBS_pB1B_jK1GqWcZDeAYnmG9pud9dsG5SVvBBhbFuS7Zzu",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQBTeKZr8o…",
+      "addr": "EQBTeKZr8o4ez75KfWjSy4ar6P1waxWTLm8krGhRWNGdata-",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQBWoawLA8…",
+      "addr": "EQBWoawLA8TUVlL93VME8-NC4SZNVdi53l_-B3ShsJ4kMc1L",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "REDO",
+      "addr": "EQBZ_cafPyDr5KUTs0aNxh0ZTDhkpEZONmLJA2SNGlLm4Cko",
+      "manip_risk": "high",
+      "flags": [
+        "f_6c6522ff",
+        "f_4b8e1a23",
+        "f_3e8e6b93",
+        "f_de36d975"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "UTYA",
+      "addr": "EQBaCgUwOoc6gHCNln_oJzb0mVs79YG7wYoavh-o1ItaneLA",
+      "manip_risk": "high",
+      "flags": [
+        "f_6c6522ff",
+        "f_5aa04323",
+        "f_4b8e1a23",
+        "f_3e8e6b93",
+        "f_de36d975"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQBdjKVnmK…",
+      "addr": "EQBdjKVnmKbBwy4LxVU9S76dGB7HrfsvHfUvnJggnRS6cEnH",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQBdr5b7cs…",
+      "addr": "EQBdr5b7csZbXhDnQ5U364bpLylHfk8AWcug8TwhzCMVcvPA",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQBfrmOdSs…",
+      "addr": "EQBfrmOdSsdLOk1tizzx37JKoAW7G0LHOvt0Zb8pVnk57rAJ",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQBiyZMUXv…",
+      "addr": "EQBiyZMUXvdnRYFUk3_R5uPdsR2ROI9mes_1S-jL1tIQDhDK",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQBom4slLI…",
+      "addr": "EQBom4slLIetxxKbAMYRD61BQwsxRnR_Tm0AO5ejiXsSYuYT",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQBpfD5q4a…",
+      "addr": "EQBpfD5q4aFgHU17KvNPN_P0QOy41MOIj2TwGX0bbAz44DNs",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "STORM",
+      "addr": "EQBsosmcZrD6FHijA7qWGLw5wo_aH8UN435hi935jJ_STORM",
+      "manip_risk": "high",
+      "flags": [
+        "f_4b8e1a23",
+        "f_3e8e6b93",
+        "f_aa5f8a7f",
+        "f_de36d975"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQBvLWIxlP…",
+      "addr": "EQBvLWIxlPLXTD6uP9W4hD7xh0PMXet9g854rx85OfY-eQyr",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQBvYQ3TyU…",
+      "addr": "EQBvYQ3TyUYTjQxZa6UPbjwVzjnC5U3PRiXhpIu-HPMYMtTX",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQBwy-wJ-w…",
+      "addr": "EQBwy-wJ-wCqh0mfJHoWjmulJ0oIRKEJJt75ULyrJNPcnn5z",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQC-hAwmSV…",
+      "addr": "EQC-hAwmSVgJ7iDUPc045FB3HISsPjaVReakE_OA7YxPnpmD",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQC-ogl0qd…",
+      "addr": "EQC-ogl0qd4Y_k5YDhOlJY_Hfp_hEGlPZB7n_TrKliZXRxqJ",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQC1fjsBMk…",
+      "addr": "EQC1fjsBMkHXEcjmATHHy4vjNCKbZhoroDRubT61XSDE1MQc",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQC2qeJ7s0…",
+      "addr": "EQC2qeJ7s0EbbLDjHlYGbwy4BiWnKOjvtioqJiLlOXpVWt1A",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQC3upMY6c…",
+      "addr": "EQC3upMY6cb_0167hcNZEMsNfnG178JygR_Ky3ffOAHWiRoB",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "GRM",
+      "addr": "EQC47093oX5Xhb0xuk2lCr2RhS8rj-vul61u4W2UH5ORmG_O",
+      "manip_risk": "high",
+      "flags": [
+        "f_6c6522ff",
+        "f_5aa04323",
+        "f_4b8e1a23",
+        "f_3e8e6b93",
+        "f_d28ffd9e"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQC4Dx5Mqy…",
+      "addr": "EQC4Dx5Mqy9qhqHpH0cl_U8hejBnchNXZn_L0_Oj2zLY5B3P",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "Yoda",
+      "addr": "EQC7vuKEYLdC72YhUWt3AUVA-Oi66Q1DxTHXH7r6pXaV50j7",
+      "manip_risk": "high",
+      "flags": [
+        "f_5aa04323",
+        "f_4b8e1a23",
+        "f_3e8e6b93",
+        "f_de36d975"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQCAj5oiRR…",
+      "addr": "EQCAj5oiRRrXokYsg_B-e0KG9xMwh5upr5I8HQzErm0_BLUM",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQCJ42YNNJ…",
+      "addr": "EQCJ42YNNJ5u-_EjSpjbnbMJwk23gqpZ2eSuxfBa6VlS4KM0",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQCQUbMUqc…",
+      "addr": "EQCQUbMUqcm6NYr6QdfIl3R3SE28wUpoX51Za604x9BSbA6y",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQCRUitj7e…",
+      "addr": "EQCRUitj7ehYvSzZKTyhq02-HpbhLNgAvnMF5I7Dx31QxIAH",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQCRWpQQmf…",
+      "addr": "EQCRWpQQmfSglpLp6D5Xebix50AStBxjfQQNkssFP_IsiQc3",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQC_74epow…",
+      "addr": "EQC_74epowycMOTiRCnxzMrds2AP94KawhrYp_0jvFNwsbNl",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQCb4GMBco…",
+      "addr": "EQCb4GMBcocSc7seGeqowpb4ORVGpss6eHOJnui26rAgCJ6K",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQCpmqRodH…",
+      "addr": "EQCpmqRodHDeQwsYqIq2cquNox9AiVhUlI5rbW7OW4sozW5-",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "MAJOR",
+      "addr": "EQCuPm01HldiduQ55xaBF_1kaW_WAUy5DHey8suqzU_MAJOR",
+      "manip_risk": "high",
+      "flags": [
+        "f_6c6522ff",
+        "f_5aa04323",
+        "f_4b8e1a23",
+        "f_3e8e6b93",
+        "f_de36d975"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "DOGS",
+      "addr": "EQCvxJy4eG8hyHBFsZ7eePxrRsUQSFE_jpptRAYBmcG_DOGS",
+      "manip_risk": "high",
+      "flags": [
+        "f_6c6522ff",
+        "f_5aa04323",
+        "f_4b8e1a23",
+        "f_3e8e6b93",
+        "f_aa5f8a7f"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "USD₮",
+      "addr": "EQCxE6mUtQJKFnGfaROTKOt1lZbDiiX1kCixRv7Nw2Id_sDs",
+      "manip_risk": "high",
+      "flags": [
+        "f_6c6522ff",
+        "f_5aa04323",
+        "f_4b8e1a23",
+        "f_3e8e6b93",
+        "f_aa5f8a7f"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQCy4YiolY…",
+      "addr": "EQCy4YiolYyzSdim0NW1vK8ll1J7Dr7VlCE6KnYxfjopNdWw",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "CATI",
+      "addr": "EQD-cvR0Nz6XAyRBvbhz-abTrRC6sI5tvHvvpeQraV9UAAD7",
+      "manip_risk": "high",
+      "flags": [
+        "f_6c6522ff",
+        "f_5aa04323",
+        "f_4b8e1a23",
+        "f_3e8e6b93",
+        "f_d28ffd9e"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQD01TwE1p…",
+      "addr": "EQD01TwE1plYpYKvRwWOLwAzzAJaDKwpB2bR3nfg-wkJJwks",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQD4L47Jfa…",
+      "addr": "EQD4L47JfaokEAu6Fr_dmvO-AmYhOZ8k6L71qc-GKu7jz70Z",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQD5u2gJ_d…",
+      "addr": "EQD5u2gJ_dyqH0IvEBbMxqR6DLSkToHM-6ZdtGocsiqJbn3o",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "TCE",
+      "addr": "EQD5wtkM_0apwcYrVdSok57abKyg7MUEmKanx-diMoOBx7yD",
+      "manip_risk": "med",
+      "flags": [
+        "thin_liquidity"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "med",
+          "med",
+          "med"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQD94YHKb6…",
+      "addr": "EQD94YHKb64DsPMJHBFH9CTqT8lIwbFrPGMr3NCWeyTHGMAG",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQDAYhJJWD…",
+      "addr": "EQDAYhJJWDwjQUJlPnXvVGhhdMOAilTTOoI0A96zIm7iWewX",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQDAn2pEpx…",
+      "addr": "EQDAn2pEpx666h66ccKHGzwMtFWJx7OkcbtzQSVGn6Z9GEAy",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQDBDVzUfm…",
+      "addr": "EQDBDVzUfmtS1MRlSPSHDGTlwUoSuTQYBU7Of-4mMV43B8Z_",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQDE1iPrP8…",
+      "addr": "EQDE1iPrP80L17RzkH3YluXsEcn5i-bPFfue259uMKKFE3h0",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQDSYtbTtF…",
+      "addr": "EQDSYtbTtFjLSGGfchjVHQYH32AFf2qtxubFdWhrUeTdzASi",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQDSkSvFZ4…",
+      "addr": "EQDSkSvFZ4lAMvQu3acr0nvKrnnXTDHHh5QNzjK8-427CHiM",
+      "manip_risk": "high",
+      "flags": [
+        "wash"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQDV0Q8euP…",
+      "addr": "EQDV0Q8euPPdsxHfaOQAmtdDrh3j5o_odMYIJM4nuiUO6t88",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQDZvDW7Cf…",
+      "addr": "EQDZvDW7Cf33YjMpeVr771PMrYgymGFyibTdcL4y-unuFtmA",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQDcAkKNxh…",
+      "addr": "EQDcAkKNxhExGiDweLlVRK0bKzUwIE7Y7rdPgjybWwKAnmh_",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQDe6uFxY_…",
+      "addr": "EQDe6uFxY_1rWpGwJHLvLNFZ0J_YmmsVAME9XIhqN0i2ZX_C",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQDjvPHOvp…",
+      "addr": "EQDjvPHOvpnoyHRISFWkRtA3U15yE6QI7jZ3iDG1PHWjiaq5",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQDoPCAEJC…",
+      "addr": "EQDoPCAEJC4NPBkGNa9N-8zfOsQDpBCjIe6bbzlPIoIqXbZm",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "MTONGA",
+      "addr": "EQDuGgqZU7_AEgiOwEe-abozIefuoairTWLOyd7c_f8GhzMf",
+      "manip_risk": "high",
+      "flags": [
+        "f_6c6522ff",
+        "f_4b8e1a23",
+        "f_3e8e6b93",
+        "f_de36d975"
+      ],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQDz7AtdWn…",
+      "addr": "EQDz7AtdWnyX2hi9FO3svybgVji2IYp-OQYeVlBPRpA1s2Dz",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "llm_unavailable (RuntimeError); floor",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    }
+  ]
+}

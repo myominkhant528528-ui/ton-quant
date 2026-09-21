@@ -1,0 +1,22 @@
+{
+  "horizon": 3,
+  "point_in_time": true,
+  "verdict_dates": 31,
+  "covered_signals": 117,
+  "copyok_wallets": 0,
+  "copy_all": {
+    "n": 117,
+    "avg": 0.2495,
+    "win_rate": 38.5,
+    "total": 29.197
+  },
+  "copy_desk": {
+    "n": 0,
+    "avg": 0.0,
+    "win_rate": 0.0,
+    "total": 0.0
+  },
+  "edge": null,
+  "comparison_ready": false,
+  "note": "На закрытых point-in-time входах desk не дал copy_ok; есть baseline/veto, но нет CopyDesk P&L для сравнения."
+}

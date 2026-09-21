@@ -1,0 +1,1868 @@
+{
+  "date": "2026-07-04",
+  "model": "qwen3-4b-4bit",
+  "generated": "2026-07-03T23:56:23",
+  "wallets": [
+    {
+      "addr": "0:7b0dcf0a1c4446ea0894cfa5a4c929e4630729d6e106a220ad056c4b25aebe10",
+      "name": null,
+      "manip_risk": "high",
+      "flags": [
+        "wash",
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.1,
+      "reason": "high manipulation risk and recent_fwd is missing/negative"
+    },
+    {
+      "addr": "0:a8f641e2c97deabe8bef338d20387f07fa4ef71e2b0c7d27f9c6ae4c15378fd7",
+      "name": "plug.ton",
+      "manip_risk": "med",
+      "flags": [
+        "thin_liquidity",
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.6,
+      "reason": "recent_fwd is positive but thin_liquidity and conceal flags indicate potential manipulation risk"
+    },
+    {
+      "addr": "0:1b84c5a8b28c5ea174c98bd4e5c34f4c1233d5bdd25ef63d270ba2baae8d1dd6",
+      "name": "amore-season.ton",
+      "manip_risk": "med",
+      "flags": [
+        "co_entry",
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.65,
+      "reason": "recent_fwd is positive but low; manipulation risk is medium; flags suggest potential issues"
+    },
+    {
+      "addr": "0:0b139b38d648c4b63d88730ff4a65d1f6dfadcd899f8ee3361640ce189893315",
+      "name": "frag.ton",
+      "manip_risk": "high",
+      "flags": [
+        "thin_liquidity",
+        "bundler",
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.1,
+      "reason": "recent_fwd is negative with high manipulation risk; thin sample and flags indicate unreliable performance"
+    },
+    {
+      "addr": "0:f2a2e706bf1295fa6388e30a99c431ce294aef002727946d013a85dfc1554317",
+      "name": null,
+      "manip_risk": "high",
+      "flags": [
+        "wash",
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.1,
+      "reason": "recent_fwd is negative with high manipulation risk; no evidence of edge"
+    },
+    {
+      "addr": "0:c8b0596f090b2415fe55ef2e0785f1c576992bfde436aeac75efcec3ab1f0fac",
+      "name": "hashtag-on-tele-gram.ton",
+      "manip_risk": "high",
+      "flags": [
+        "wash",
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.1,
+      "reason": "high manipulation risk and recent_fwd is missing/negative with edge also negative"
+    },
+    {
+      "addr": "0:f8b8635d0786b77f9da660e65fd31d670a675dd4302facba692f46b571eb5360",
+      "name": "selling-domain-dogs.ton",
+      "manip_risk": "med",
+      "flags": [
+        "co_entry"
+      ],
+      "copy_ok": false,
+      "conviction": 0.65,
+      "reason": "recent_fwd is negative and edge is positive, indicating potential regime shift; manipulation risk is medium"
+    },
+    {
+      "addr": "0:441db70005bbfd1d942c7e36c2324e2a3a2a6abf53cdcaaa612973ae4acdf66d",
+      "name": null,
+      "manip_risk": "med",
+      "flags": [
+        "thin_liquidity",
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.65,
+      "reason": "recent_fwd is negative with no positive edge, and thin_liquidity indicates weak conviction"
+    },
+    {
+      "addr": "0:a201927ad1fc0783b98d30c12f534b9fd2a044096aaacbb0482d4c85457646b5",
+      "name": null,
+      "manip_risk": "med",
+      "flags": [
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.65,
+      "reason": "recent_fwd is positive but manipulation risk is medium; flags indicate concealment"
+    },
+    {
+      "addr": "0:220d36f28f1440d3c5ea9636d2507146e8600545dd96d92345ce05c9e4db9f16",
+      "name": null,
+      "manip_risk": "high",
+      "flags": [
+        "coordinated_inauth",
+        "bundler",
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.1,
+      "reason": "recent_fwd is negative with high manipulation risk; no evidence of edge"
+    },
+    {
+      "addr": "0:6ce8da34fc8f0ac49da75bd8486a04248d149a1822129d2ea7b220b02069bdcd",
+      "name": null,
+      "manip_risk": "med",
+      "flags": [
+        "co_entry",
+        "vol_auth"
+      ],
+      "copy_ok": true,
+      "conviction": 0.95,
+      "reason": "recent_fwd is positive and edge is positive, indicating potential for future returns; manipulation risk is medium but not high"
+    },
+    {
+      "addr": "0:2009400656991ac21b7160b31891f970844ba592be4d0b34d09e98f26fe22844",
+      "name": "gr4m.ton",
+      "manip_risk": "med",
+      "flags": [
+        "co_entry",
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.7,
+      "reason": "recent_fwd is negative with no positive evidence, and manipulation risk is medium"
+    },
+    {
+      "addr": "0:3b865f3176d329c18280bb36477a2ece4a726955ace73bb27014b5588d8e00b7",
+      "name": null,
+      "manip_risk": "high",
+      "flags": [
+        "wash",
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.1,
+      "reason": "recent_fwd is negative with high manipulation risk; no evidence of edge"
+    },
+    {
+      "addr": "0:484b0ac9b4d429697b76a9adad8ee8886bb3b91e1d9728c608e65c51332431be",
+      "name": "utyadao.ton",
+      "manip_risk": "high",
+      "flags": [
+        "wash",
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.1,
+      "reason": "recent_fwd is negative with high manipulation risk; no evidence of edge"
+    },
+    {
+      "addr": "0:fa23c4ec38d7220168911cd89849f64cce105346b6cae235b512673752a8d685",
+      "name": null,
+      "manip_risk": "med",
+      "flags": [
+        "co_entry",
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.7,
+      "reason": "recent_fwd is positive but low; manipulation risk is medium; flags suggest potential issues"
+    },
+    {
+      "addr": "0:9650baefe1a7d54893516da54ee8b709a118ac76715aba39c1429b4a497047d1",
+      "name": null,
+      "manip_risk": "high",
+      "flags": [
+        "wash",
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.1,
+      "reason": "recent_fwd is positive but manipulation risk is high; flags indicate potential wash or conceal activities"
+    },
+    {
+      "addr": "0:dbe163659546bb1f046590bc423e2f94a6591ca1d5eab9c4de63646805730541",
+      "name": "favezy.ton",
+      "manip_risk": "high",
+      "flags": [
+        "wash",
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.1,
+      "reason": "high manipulation risk and negative recent_fwd with low conviction"
+    },
+    {
+      "addr": "0:35376072a02379119a540c197b10d943881e252878751be9192c7f03811a7cc2",
+      "name": null,
+      "manip_risk": "med",
+      "flags": [
+        "co_entry",
+        "vol_auth"
+      ],
+      "copy_ok": false,
+      "conviction": 0.95,
+      "reason": "Recent forward return is positive and edge is positive, indicating potential performance. Manipulation risk is medium but not prohibitive."
+    },
+    {
+      "addr": "0:fc6c6b2b49058ade5666ea6767cc0c496786c842295d5ab99d965bdc40f14e19",
+      "name": null,
+      "manip_risk": "high",
+      "flags": [
+        "coordinated_inauth",
+        "bundler",
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.1,
+      "reason": "high manipulation risk and recent_fwd is missing/negative with edge also negative"
+    },
+    {
+      "addr": "0:bcad466a47fa565750729565253cd073ca24d856804499090c2100d95c809f9e",
+      "name": null,
+      "manip_risk": "med",
+      "flags": [
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.7,
+      "reason": "recent_fwd is positive but low; manipulation risk is medium; flags indicate concealment"
+    },
+    {
+      "addr": "0:5b7651d5a357d7a31d2ebda143869a9ff39485578838b227ff1d85dbb825820d",
+      "name": "cryptosecc.ton",
+      "manip_risk": "med",
+      "flags": [
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.7,
+      "reason": "recent_fwd is null and edge is negative; manipulation risk is medium"
+    },
+    {
+      "addr": "0:6c990f90fee2caf5cceab43d9377a2b8e613f029d2b654777de14aa581b06ee0",
+      "name": null,
+      "manip_risk": "high",
+      "flags": [
+        "wash",
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.1,
+      "reason": "recent_fwd is negative and edge is also negative, indicating no evidence of an edge. high manipulation risk suggests potential fraud."
+    },
+    {
+      "addr": "0:f4f29ce650a52e3716021761566f5827e2f5e05b61211f7fe45f57732849c423",
+      "name": null,
+      "manip_risk": "high",
+      "flags": [
+        "wash",
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.0,
+      "reason": "high manipulation risk and recent_fwd is missing/negative"
+    },
+    {
+      "addr": "0:9ee8e6653451d75816a2e55dc2cd8b1d3baf32651d8631d31858ee8d275c188b",
+      "name": null,
+      "manip_risk": "high",
+      "flags": [
+        "wash",
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.1,
+      "reason": "recent_fwd is positive but manipulation risk is high; flags indicate potential wash or conceal activities"
+    },
+    {
+      "addr": "0:c54a7932ecbdcd0989c50bdb6f0ef715d79d1dbbd603e4fda81c8b7a4bdcae3a",
+      "name": null,
+      "manip_risk": "high",
+      "flags": [
+        "wash",
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.1,
+      "reason": "recent_fwd is positive but manipulation risk is high; flags indicate potential wash and conceal activities"
+    },
+    {
+      "addr": "0:66cec988ed6a39553375bc16c77945bb91f5a869ab0675a6d9aa41dba805f19a",
+      "name": "gwhale.ton",
+      "manip_risk": "med",
+      "flags": [
+        "co_entry",
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.95,
+      "reason": "recent_fwd is positive and edge is high, indicating strong performance; manipulation risk is medium but not prohibitive"
+    },
+    {
+      "addr": "0:13c75b319b581ff512edb2865c9d3ac20d199c31e594dd6436bee9590cd04b15",
+      "name": null,
+      "manip_risk": "high",
+      "flags": [
+        "wash",
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.1,
+      "reason": "high manipulation risk and recent_fwd is missing/negative"
+    },
+    {
+      "addr": "0:b38f21836358743696bb83726be301357703063c8fddf6526136af43bbdbdcb7",
+      "name": null,
+      "manip_risk": "med",
+      "flags": [
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.75,
+      "reason": "recent_fwd is positive but low; manipulation risk is medium; flags indicate concealment"
+    },
+    {
+      "addr": "0:3f1e4402d54d4b0326468a06d0ad159e9ff59de7cd40d28e517f1d89e60811b0",
+      "name": null,
+      "manip_risk": "high",
+      "flags": [
+        "thin_liquidity",
+        "conceal",
+        "bundler"
+      ],
+      "copy_ok": false,
+      "conviction": 0.1,
+      "reason": "recent_fwd is negative with high manipulation risk; thin liquidity and conceal flags indicate potential for manipulation"
+    },
+    {
+      "addr": "0:55220019cb28d7da1a5f4ea1d7f69bc14d72b1d51289a81e8393f297b09bdb4c",
+      "name": null,
+      "manip_risk": "high",
+      "flags": [
+        "wash",
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.1,
+      "reason": "high manipulation risk and negative recent_fwd with no evidence of edge"
+    },
+    {
+      "addr": "0:153068d0ba386b012128fa7d883219ec9edf500172a2d9c7f41f04719a0488b8",
+      "name": null,
+      "manip_risk": "med",
+      "flags": [
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.75,
+      "reason": "recent_fwd is positive but low; manipulation risk is medium; flags indicate concealment"
+    },
+    {
+      "addr": "0:744551266ee6de08c1cf8fbf991a37ce1fc1069c9c6438f01b118527cb936dd4",
+      "name": null,
+      "manip_risk": "high",
+      "flags": [
+        "wash",
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.1,
+      "reason": "recent_fwd is negative with high manipulation risk; no evidence of edge"
+    },
+    {
+      "addr": "0:d92a757d234005d40510962532b233d8d456c04bcaaca4e046435a5a9d174f44",
+      "name": null,
+      "manip_risk": "high",
+      "flags": [
+        "thin_liquidity",
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.1,
+      "reason": "recent_fwd is negative with high manipulation risk; thin liquidity and conceal flags indicate potential for manipulation"
+    },
+    {
+      "addr": "0:da4546acbdd162c6710b00f2a19f680e9a4aa6cafcc30a92ff8c100310d0a7bb",
+      "name": null,
+      "manip_risk": "med",
+      "flags": [
+        "thin_liquidity",
+        "conceal",
+        "conc"
+      ],
+      "copy_ok": false,
+      "conviction": 0.6,
+      "reason": "recent_fwd is negative with no evidence of edge, and manipulation risk is medium"
+    },
+    {
+      "addr": "0:3ea1c13bf9c27e639d5dcdbdf790f1a2ee566acba3ec21ffebe579545cb53005",
+      "name": null,
+      "manip_risk": "high",
+      "flags": [
+        "coordinated_inauth",
+        "bundler",
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.1,
+      "reason": "high manipulation risk and recent_fwd is missing/negative with edge also negative"
+    },
+    {
+      "addr": "0:8c6ff717c98e5904b61741bd24341bd1fd6f74fe67b8d724f48cd836b5a6ee5a",
+      "name": null,
+      "manip_risk": "high",
+      "flags": [
+        "wash",
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.1,
+      "reason": "recent_fwd is negative and edge is also negative, indicating no evidence of an edge. high manipulation risk suggests potential fraud."
+    },
+    {
+      "addr": "0:6747a7533eeb32c98764e0fc79965409a099772a5bab08eaa5051b37b0bc9b6c",
+      "name": null,
+      "manip_risk": "low",
+      "flags": [],
+      "copy_ok": false,
+      "conviction": 0.8,
+      "reason": "recent_fwd is negative with no edge evidence; manipulation risk is low but insufficient forward return indicates poor performance"
+    },
+    {
+      "addr": "0:b1585b4f272d67f5ad9bd588a1326e85694337270e11b06d8df85dc569488d19",
+      "name": null,
+      "manip_risk": "med",
+      "flags": [
+        "thin_liquidity",
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.7,
+      "reason": "recent_fwd is null and edge is negative; thin_liquidity and conceal flags indicate high manipulation risk"
+    },
+    {
+      "addr": "0:16194beda51f6e1747b2ddf2389d06cddc410fe9928f1b23b75b83741005ee24",
+      "name": null,
+      "manip_risk": "high",
+      "flags": [
+        "thin_liquidity",
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.1,
+      "reason": "recent_fwd is negative with high manipulation risk; thin liquidity and conceal flags indicate potential for manipulation"
+    },
+    {
+      "addr": "0:f405142df9074811bb23b91b0cab30e506450011f422c52843102a0a10e5d173",
+      "name": "hashtag-on-tele-g.ton",
+      "manip_risk": "med",
+      "flags": [
+        "co_entry",
+        "vol_auth"
+      ],
+      "copy_ok": false,
+      "conviction": 0.76,
+      "reason": "Recent forward return is positive and edge is positive, indicating potential for future returns. However, manipulation risk is medium, which suggests caution."
+    },
+    {
+      "addr": "0:4070a709436946a4263dad1642f554ce7bdafc8b80f05548a7968e40cd4a204e",
+      "name": "gazillionaire.ton",
+      "manip_risk": "high",
+      "flags": [
+        "wash",
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.1,
+      "reason": "high manipulation risk and wash flags indicate potential fraud; recent_fwd is positive but edge is null suggesting no historical edge"
+    },
+    {
+      "addr": "0:4da33c5c3cd1ef225708f18dedd6bbed42177d6bb7f505b000c6fce89d4636d3",
+      "name": null,
+      "manip_risk": "high",
+      "flags": [
+        "wash",
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.1,
+      "reason": "recent_fwd is negative and edge is also negative, indicating no evidence of an edge. high manipulation risk suggests potential fraud."
+    },
+    {
+      "addr": "0:db35c6aa8a7bd0cbfe039de5af3cc95614f8a4adb341fa731620c2fed809a507",
+      "name": null,
+      "manip_risk": "med",
+      "flags": [
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.72,
+      "reason": "recent_fwd is positive but low; manipulation risk is medium; flags indicate concealment"
+    },
+    {
+      "addr": "0:d833462f172dbed49e2f4ec9ff18a531f142810afb3603940a26df305535ea86",
+      "name": null,
+      "manip_risk": "med",
+      "flags": [
+        "co_entry",
+        "vol_auth"
+      ],
+      "copy_ok": false,
+      "conviction": 0.8,
+      "reason": "Recent forward return is positive and edge is positive, indicating potential for future returns. However, manipulation risk is medium, which requires caution."
+    },
+    {
+      "addr": "0:a212b811feed94df4108d86e51ccb7cb00d3a1ccecfc8d75392b66e454eb5ccd",
+      "name": null,
+      "manip_risk": "med",
+      "flags": [
+        "co_entry",
+        "vol_auth"
+      ],
+      "copy_ok": false,
+      "conviction": 0.95,
+      "reason": "Recent forward return is positive and edge is positive, indicating potential performance. Manipulation risk is medium but not prohibitive."
+    },
+    {
+      "addr": "0:b61db3fb77e149b262225471c60cd9fd74d5a275bb9bcd29870f72f16821797b",
+      "name": "cryptocrores.ton",
+      "manip_risk": "high",
+      "flags": [
+        "wash",
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.1,
+      "reason": "high manipulation risk and recent_fwd is missing/negative with edge also negative"
+    },
+    {
+      "addr": "0:2e674114e78dcd512c529dcc566f1f895f739b8a4eb719b789a0364623b4f213",
+      "name": null,
+      "manip_risk": "med",
+      "flags": [
+        "thin_liquidity",
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.7,
+      "reason": "recent_fwd is missing/negative and edge is also negative; thin_liquidity indicates weak conviction"
+    },
+    {
+      "addr": "0:790ebf38ac74ed3ac1d9630068444234713e4a2e68623b6ff352718cc997fb20",
+      "name": "tonenjoyer.ton",
+      "manip_risk": "high",
+      "flags": [
+        "wash",
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.1,
+      "reason": "high manipulation risk and recent_fwd is missing/negative with edge also negative"
+    },
+    {
+      "addr": "0:cf563aac43f868c50503119f2d496fd4152977301f50722494b737325f57f72d",
+      "name": null,
+      "manip_risk": "med",
+      "flags": [
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.85,
+      "reason": "recent_fwd is null and edge is positive, but flags include 'conceal' indicating potential manipulation risk"
+    },
+    {
+      "addr": "0:23e05d7ad695bed171a3c4ef2fdd51de23ddedae7e6c86222c016565868e0775",
+      "name": null,
+      "manip_risk": "med",
+      "flags": [
+        "thin_liquidity",
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.6,
+      "reason": "recent_fwd is positive but edge is high and manipulation risk is medium; thin liquidity and conceal flags suggest potential issues"
+    },
+    {
+      "addr": "0:ac1e0e46d16129acf447ced89eebe60236b3d05729024370501defc744b0974b",
+      "name": null,
+      "manip_risk": "med",
+      "flags": [
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.88,
+      "reason": "recent_fwd is negative and edge is also negative, indicating no evidence of an edge. Manipulation risk is medium, further reducing confidence."
+    },
+    {
+      "addr": "0:ff5dd12d163adee5b90aae7b26f4086e53f5cd220c69e870d82d68fe4fc771af",
+      "name": null,
+      "manip_risk": "med",
+      "flags": [
+        "co_entry",
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.85,
+      "reason": "recent_fwd is missing/negative and edge is also negative; manipulation risk is med"
+    },
+    {
+      "addr": "0:450a9aa768bccefb443dbac7a30703da1dd9bbf30089aae1949728cc5453ae70",
+      "name": null,
+      "manip_risk": "med",
+      "flags": [
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.92,
+      "reason": "recent_fwd is missing/negative and edge is also negative; no evidence of an edge at all"
+    },
+    {
+      "addr": "0:b9fa0ddf3a9ff62c904f7835f7463fe35b5dd614b42d8b2f91a6648c85ee6f0b",
+      "name": null,
+      "manip_risk": "med",
+      "flags": [
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.56,
+      "reason": "recent_fwd is positive but low; manipulation risk is medium; flags indicate concealment"
+    },
+    {
+      "addr": "0:4b49e675d823aab893da4864d4b601c6df4940f9efa389240e6ae12c4cac340f",
+      "name": null,
+      "manip_risk": "med",
+      "flags": [
+        "co_entry",
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.76,
+      "reason": "recent_fwd is negative with edge also negative, indicating no evidence of an edge. Manipulation risk is medium, further reducing confidence."
+    },
+    {
+      "addr": "0:45887540a12394ca09916556101a32bba2f5c0983fe4273a7c7da2640b542f2d",
+      "name": null,
+      "manip_risk": "med",
+      "flags": [
+        "thin_liquidity",
+        "conceal",
+        "conc"
+      ],
+      "copy_ok": false,
+      "conviction": 0.48,
+      "reason": "recent_fwd is negative and edge is also negative, indicating no evidence of an edge. Sample is thin with manipulation risk."
+    },
+    {
+      "addr": "0:a155a12715f1d81eb7ae42f097200891dd8ab56273df7442943ac3a036a8b0c3",
+      "name": null,
+      "manip_risk": "high",
+      "flags": [
+        "thin_liquidity",
+        "bundler",
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.1,
+      "reason": "high manipulation risk and thin liquidity flag; recent_fwd is positive but edge is null"
+    },
+    {
+      "addr": "0:d8cd999fb2b1b384e6ca254c3883375e23111a8b78c015b886286c31bf11e29d",
+      "name": "Pavel Durov",
+      "manip_risk": "high",
+      "flags": [
+        "wash",
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.1,
+      "reason": "recent_fwd is negative with high manipulation risk; no evidence of edge"
+    },
+    {
+      "addr": "0:a8415ec4c1588a1775fb2a168ce106926b8b8d1e6da74a4e6987e0e7a99319e2",
+      "name": null,
+      "manip_risk": "high",
+      "flags": [
+        "coordinated_inauth",
+        "bundler",
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.1,
+      "reason": "high manipulation risk and recent_fwd is positive but edge is stale; flags indicate potential fraud"
+    },
+    {
+      "addr": "0:69da0a1ea7e06bca4f1a900363af14c8e7f229d660936dd06ad336f0ecd9ea0b",
+      "name": null,
+      "manip_risk": "high",
+      "flags": [
+        "wash",
+        "conceal"
+      ],
+      "copy_ok": false,
+      "conviction": 0.1,
+      "reason": "high manipulation risk and recent_fwd is positive but weak; flags indicate potential misconduct"
+    }
+  ],
+  "tokens": [
+    {
+      "sym": "EQA1R_LuQC…",
+      "addr": "EQA1R_LuQCLHlMgOo1S4G7Y7W1cd0FrAkbA10Zq7rddKxi9k",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "Wash level is low, vol_auth is moderate, and conc is moderate, indicating low manipulation risk.",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQA5gToqqD…",
+      "addr": "EQA5gToqqDZd1iDLLF8RcY2RLaz_M19lz-sfTEOVAnf09lOr",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "Wash level is low, vol_auth is moderate, and conc is moderate, indicating low manipulation risk.",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQA61O71y4…",
+      "addr": "EQA61O71y4I8oZDXRvMOrHtub2vxcPI54f1oGA_e4h0JL64L",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "Wash level is low, vol_auth is moderate, and conc is moderate, indicating low manipulation risk.",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQA69Mhu92…",
+      "addr": "EQA69Mhu92OBCtAse0SJbv3_3VpiVV10d5vLUw_3Bg8Myt_0",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "Wash level is low, vol_auth is moderate, and conc is moderate, indicating low manipulation risk.",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "GM",
+      "addr": "EQA69XQSXbB6zXv36mTFaiazCBSuLj_zT6tH44m6ohvjGv02",
+      "manip_risk": "med",
+      "flags": [
+        "thin_liquidity",
+        "conceal",
+        "bundler"
+      ],
+      "reason": "High concentration and bundling suggest potential manipulation. Low vol_auth and high conc indicate possible concealment.",
+      "ensemble": {
+        "votes": [
+          "med",
+          "med",
+          "med"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "GRINCH",
+      "addr": "EQA6G0uVERDZTkLNa0drWBna1F5TSbogy7UXEWU5ERHz4uJL",
+      "manip_risk": "med",
+      "flags": [
+        "thin_liquidity",
+        "conceal",
+        "bundler"
+      ],
+      "reason": "High concentration (conc: 0.87) and bundler evidence (bundle: 0.1136) suggest potential manipulation. The token is young (age_d: 23) and has a low volume authority (vol_auth: 0.913), adding to the risk.",
+      "ensemble": {
+        "votes": [
+          "med",
+          "med",
+          "med"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQA6SJ9_U7…",
+      "addr": "EQA6SJ9_U70AKlzYogEWQoZUrSpTYEKRpiqzo_E8zYiRlD6G",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "Wash level is low, vol_auth is moderate, and conc is moderate, indicating low manipulation risk.",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQA6VT7WUn…",
+      "addr": "EQA6VT7WUn0BhtwJ3OYlSH0WubVXHBzHymBCcVCDsO8FWVWD",
+      "manip_risk": "high",
+      "flags": [
+        "wash",
+        "conceal"
+      ],
+      "reason": "High wash and conceal indicators suggest significant manipulation risk. Low vol_auth and moderate conc further indicate potential for artificial trading activity.",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQA6oZqfng…",
+      "addr": "EQA6oZqfngpjbXn7SJdBjIYEoOxt_NusP4ULYCVAuQyG65G3",
+      "manip_risk": "high",
+      "flags": [
+        "wash",
+        "conceal"
+      ],
+      "reason": "High wash and conceal indicators suggest significant manipulation risk. Low vol_auth and moderate conc further indicate potential for artificial trading activity.",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQA6ulHH35…",
+      "addr": "EQA6ulHH35svS8QQz0l5EetinJLSHAFKHRMJ2E7Ax14Rluc2",
+      "manip_risk": "high",
+      "flags": [
+        "wash",
+        "conceal"
+      ],
+      "reason": "High wash and conceal indicators suggest significant manipulation risk. Low vol_auth and moderate conc further indicate potential for artificial trading activity.",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQACM1Tw6E…",
+      "addr": "EQACM1Tw6EJCorGrIzHY5PM_enV-awK6R2CSVGdEVm2pSsUM",
+      "manip_risk": "high",
+      "flags": [
+        "wash",
+        "conceal"
+      ],
+      "reason": "High wash and conceal indicators suggest significant manipulation risk. Low vol_auth and moderate conc further indicate potential for artificial trading activity.",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "TONY",
+      "addr": "EQAH8OSNymywSQyPE1t0tULFlxO__yhUmlscpTCfMLf_TONY",
+      "manip_risk": "med",
+      "flags": [
+        "thin_liquidity",
+        "conceal",
+        "bundler"
+      ],
+      "reason": "High concentration and bundling suggest potential manipulation. Low volume authentication and high concentration indicate possible concealment.",
+      "ensemble": {
+        "votes": [
+          "med",
+          "med",
+          "med"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAIb6Kmdf…",
+      "addr": "EQAIb6KmdfdDR7CN1GBqVJuP25iCnLKCvBlJ07Evuu2dzP5f",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "Wash level is low, vol_auth is moderate, and conc is moderate, indicating low manipulation risk.",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAJ8uWd7E…",
+      "addr": "EQAJ8uWd7EBqsmpSWaRdf_I-8R8-XHwh3gsNKhy-UrdrPcUo",
+      "manip_risk": "high",
+      "flags": [
+        "wash",
+        "conceal"
+      ],
+      "reason": "High wash and conceal indicators suggest significant manipulation risk. Low vol_auth and moderate conc further indicate potential for artificial trading activity.",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAKBA1_-w…",
+      "addr": "EQAKBA1_-wWP31MjbFp-CiU7RZYsUetkVoHTHTuYgR8KhuPE",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "Wash level is low, vol_auth is moderate, and conc is moderate, indicating low manipulation risk.",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAO_tYpLb…",
+      "addr": "EQAO_tYpLbPq-GOXegYTYtFaQ0tMkxLBxzYF8cUCGGWAj_aA",
+      "manip_risk": "high",
+      "flags": [
+        "wash",
+        "conceal"
+      ],
+      "reason": "High wash and conceal indicators suggest significant manipulation risk. Low vol_auth and moderate conc further indicate potential for artificial trading activity.",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAOyf4n-7…",
+      "addr": "EQAOyf4n-7wTtTI45LGQwfacEfnkpOa9v6bjpwgeCHX5WW8y",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "Wash level is low, vol_auth is moderate, and conc is moderate, indicating low manipulation risk.",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAQXlWJvG…",
+      "addr": "EQAQXlWJvGbbFfE8F3oS8s87lIgdovS455IsWFaRdmJetTon",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "Wash level is low, vol_auth is moderate, and conc is moderate, indicating low manipulation risk.",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "FISH",
+      "addr": "EQATcUc69sGSCCMSadsVUKdGwM1BMKS-HKCWGPk60xZGgwsK",
+      "manip_risk": "low",
+      "flags": [
+        "vol_auth"
+      ],
+      "reason": "Low wash and conceal indicators, but vol_auth is high suggesting potential for manipulation. Other features show minimal risk factors.",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAX9J60va…",
+      "addr": "EQAX9J60va-0wIDMdqGLRMf7imJvG0Ytyi3Yxnq9y-nbNCq2",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "Wash level is low, vol_auth is moderate, and conc is moderate, indicating low manipulation risk.",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "FAVEZY",
+      "addr": "EQAm0WeMiVU4yyP3-4Oj7Gw8y2pnQE1UUzI_M-jmPIQb-SCC",
+      "manip_risk": "high",
+      "flags": [
+        "wash",
+        "bundler",
+        "conceal"
+      ],
+      "reason": "High wash and concentration indicate strong manipulation. High top10 and HHI suggest bot-driven activity and concentration risk.",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAm5HVkMv…",
+      "addr": "EQAm5HVkMvZWepsxIEIQfsMln6YJJolGQmJxMLYU5V8h1abL",
+      "manip_risk": "high",
+      "flags": [
+        "wash",
+        "conceal"
+      ],
+      "reason": "High wash and conceal indicators suggest significant manipulation risk. Low vol_auth and moderate conc further indicate potential for artificial trading activity.",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAmAnqgWP…",
+      "addr": "EQAmAnqgWPqYZRX8VFPmFkQ4BEG-usOTKJ7dS4iQr5v_ZjeJ",
+      "manip_risk": "high",
+      "flags": [
+        "wash",
+        "conceal"
+      ],
+      "reason": "High wash and conceal indicators suggest significant manipulation risk. Low vol_auth and moderate conc further indicate potential for artificial trading activity.",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAmNuK8dd…",
+      "addr": "EQAmNuK8ddxGRwP74Xi-VhLNZWio9w2BoULMkNwX-bXsOkVx",
+      "manip_risk": "high",
+      "flags": [
+        "wash",
+        "conceal"
+      ],
+      "reason": "High wash and conceal indicators suggest significant manipulation risk. Low vol_auth and moderate conc further indicate potential for artificial trading activity.",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "ZCAT",
+      "addr": "EQAmVeWCyPsKzpyy6zE-QzyZ0lH_7sFmmroWVxS0b_fJZ0Fd",
+      "manip_risk": "med",
+      "flags": [
+        "thin_liquidity",
+        "conceal"
+      ],
+      "reason": "High concentration (conc: 1.0) and low volume authentication (vol_auth: 0.343) suggest potential concealment. The token is new (age_d: 4) which may increase manipulation risk.",
+      "ensemble": {
+        "votes": [
+          "med",
+          "med",
+          "med"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "POMBO",
+      "addr": "EQAme5Z3_wsVhvSemTvwFToq2AIRz_NSfEdiKOgdI8H11EPh",
+      "manip_risk": "med",
+      "flags": [
+        "thin_liquidity",
+        "conceal"
+      ],
+      "reason": "High concentration (conc: 0.939) suggests potential concealment. Low vol_auth (0.569) indicates limited authentication, raising manipulation risk.",
+      "ensemble": {
+        "votes": [
+          "med",
+          "med",
+          "med"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "MEMEGRAM",
+      "addr": "EQAmiAVqNkNobs8CXbt38JlNFlXJ0eztRlsP3Z27YF2DMvKr",
+      "manip_risk": "med",
+      "flags": [
+        "thin_liquidity",
+        "conceal",
+        "bundler"
+      ],
+      "reason": "High concentration and low volume authentication suggest concealment. Bundle evidence is present, indicating potential coordinated supply.",
+      "ensemble": {
+        "votes": [
+          "med",
+          "med",
+          "med"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQAmnA14Xe…",
+      "addr": "EQAmnA14XeBqTRHUqRlaqs_PPAtxBa-HI2d9oqHzdzAaMNUG",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "Wash level is low, vol_auth is moderate, and conc is moderate, indicating low manipulation risk.",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "GRAMMING",
+      "addr": "EQAmsYIAadPQrEn-wZrRKwqhnReLDOeKl9T70umuk0MA1ULW",
+      "manip_risk": "med",
+      "flags": [
+        "thin_liquidity",
+        "conceal",
+        "bundler"
+      ],
+      "reason": "High concentration (conc: 0.903) and moderate bundler (bundle: 0.051) suggest potential concealment. The token is young (age_d: 15) which adds to the risk.",
+      "ensemble": {
+        "votes": [
+          "med",
+          "med",
+          "med"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "KOTÉ",
+      "addr": "EQAmvp1Vrr0zY2--STdH-0X_mP5iCD61p2vNVJYwHlgBni2C",
+      "manip_risk": "med",
+      "flags": [
+        "thin_liquidity",
+        "conceal",
+        "bundler"
+      ],
+      "reason": "High concentration (conc: 0.92) and bundler evidence (bundle: 0.0579) suggest potential manipulation. Low vol_auth (0.799) and high conc indicate possible concealment of liquidity.",
+      "ensemble": {
+        "votes": [
+          "med",
+          "med",
+          "med"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "GROYP",
+      "addr": "EQAtwo6qMNwtr0iTA9eKVZ32cuACFJ0VKd78GrBWOe83-X1P",
+      "manip_risk": "med",
+      "flags": [
+        "conceal",
+        "bundler"
+      ],
+      "reason": "Concentration (conc) and bundling (bundle) suggest potential manipulation. Low vol_auth and moderate conc indicate possible concealment of trading volume.",
+      "ensemble": {
+        "votes": [
+          "med",
+          "med",
+          "med"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "NOT",
+      "addr": "EQAvlWFDxGF2lXm67y4yzC17wYKD9A0guwPkMs1gOsM__NOT",
+      "manip_risk": "med",
+      "flags": [
+        "bundler",
+        "conceal"
+      ],
+      "reason": "Bundle score 0.3272 suggests coordinated supply. Low conc and high vol_auth indicate potential concealment.",
+      "ensemble": {
+        "votes": [
+          "med",
+          "med",
+          "med"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQB02DJ0cd…",
+      "addr": "EQB02DJ0cdUD4iQDRbBv4aYG3htePHBRK1tGeRtCnatescK0",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "Wash level is low, vol_auth is moderate, and conc is moderate, indicating low manipulation risk.",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQB5jqHoxZ…",
+      "addr": "EQB5jqHoxZ8aiZdznfVb4ARrr7sBSEnTdZXmKDNu5TOIJiaL",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "Wash level is low, vol_auth is moderate, and conc is moderate, indicating low manipulation risk.",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQBARQjzu8…",
+      "addr": "EQBARQjzu8ZnTzJJMXlDqrnaZ-CH_nrV2XbzL28l6-p8xNo9",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "Wash level is low, vol_auth is moderate, and conc is moderate, indicating low manipulation risk.",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "TAC",
+      "addr": "EQBE_gBrU3mPI9hHjlJoR_kYyrhQgyCFD6EUWfa42W8T7EBP",
+      "manip_risk": "high",
+      "flags": [
+        "wash",
+        "bundler",
+        "conceal"
+      ],
+      "reason": "High wash and concentration indicate significant manipulation. High top10 and hhi suggest bot-driven activity and concentration risk.",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EVAA",
+      "addr": "EQBKMfjX_a_dsOLm-juxyVZytFP7_KKnzGv6J01kGc72gVBp",
+      "manip_risk": "med",
+      "flags": [
+        "bundler",
+        "conceal"
+      ],
+      "reason": "High concentration in top 10 buyers and bundler evidence suggest manipulation. Low vol_auth and moderate conc indicate potential for concealment.",
+      "ensemble": {
+        "votes": [
+          "med",
+          "med",
+          "med"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "CHERRY",
+      "addr": "EQBKRSNRkeP1-2jcg5T_f__0s5Hj-vrbfNLMQy8dnZs7xd_p",
+      "manip_risk": "low",
+      "flags": [
+        "vol_auth"
+      ],
+      "reason": "Low wash and moderate concentration suggest minimal manipulation risk. High volume authentication indicates reliable trading activity.",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQBKyW3f79…",
+      "addr": "EQBKyW3f79DLgleeD2wx9blyKFC525KKXIPlzVf_EwYd5Ed3",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "Wash level is low, vol_auth is moderate, and conc is moderate, indicating low manipulation risk.",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQBSCtnNQk…",
+      "addr": "EQBSCtnNQkeb_GFgw8MOQWaQKVoyOMfDgD4MPlTUlOdJ2QrC",
+      "manip_risk": "high",
+      "flags": [
+        "wash",
+        "conceal"
+      ],
+      "reason": "High wash and conceal indicators suggest significant manipulation risk. Low vol_auth and moderate conc further indicate potential for artificial trading activity.",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "DATA",
+      "addr": "EQBTeKZr8o4ez75KfWjSy4ar6P1waxWTLm8krGhRWNGdata-",
+      "manip_risk": "high",
+      "flags": [
+        "wash",
+        "bundler",
+        "conceal"
+      ],
+      "reason": "High wash and concentration indicate significant manipulation. High top10 and HHI suggest concentration risk, while low vol_auth and high conc further imply manipulation.",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "REDO",
+      "addr": "EQBZ_cafPyDr5KUTs0aNxh0ZTDhkpEZONmLJA2SNGlLm4Cko",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "low wash and vol_auth indicates low manipulation risk; no significant concentration or bundling evidence",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "UTYA",
+      "addr": "EQBaCgUwOoc6gHCNln_oJzb0mVs79YG7wYoavh-o1ItaneLA",
+      "manip_risk": "med",
+      "flags": [
+        "bundler",
+        "conceal"
+      ],
+      "reason": "High buyer concentration and bundler evidence suggest potential manipulation. Low vol_auth and moderate conc indicate possible concealment.",
+      "ensemble": {
+        "votes": [
+          "med",
+          "med",
+          "med"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "COCOON",
+      "addr": "EQBiyZMUXvdnRYFUk3_R5uPdsR2ROI9mes_1S-jL1tIQDhDK",
+      "manip_risk": "med",
+      "flags": [
+        "conceal",
+        "bundler"
+      ],
+      "reason": "Moderate manipulation risk due to high concentration and bundler evidence. Low wash but concealment and bundler factors suggest potential for manipulation.",
+      "ensemble": {
+        "votes": [
+          "med",
+          "med",
+          "med"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQBom4slLI…",
+      "addr": "EQBom4slLIetxxKbAMYRD61BQwsxRnR_Tm0AO5ejiXsSYuYT",
+      "manip_risk": "high",
+      "flags": [
+        "wash",
+        "conceal"
+      ],
+      "reason": "High wash and conceal indicators suggest significant manipulation risk. Low vol_auth and moderate conc further indicate potential for artificial trading activity.",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQBpGq0XTr…",
+      "addr": "EQBpGq0XTrpp2uDUwKLTCXgZs2juLBusPSAW-1rdZbOFSHam",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "Wash level is low, vol_auth is moderate, and conc is moderate, indicating low manipulation risk.",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "STORM",
+      "addr": "EQBsosmcZrD6FHijA7qWGLw5wo_aH8UN435hi935jJ_STORM",
+      "manip_risk": "med",
+      "flags": [
+        "bundler",
+        "conceal"
+      ],
+      "reason": "High concentration in top 10 holders and moderate wash indicate potential manipulation. Bundle and conceal flags suggest coordinated supply or thin interest.",
+      "ensemble": {
+        "votes": [
+          "med",
+          "med",
+          "med"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQBvYQ3TyU…",
+      "addr": "EQBvYQ3TyUYTjQxZa6UPbjwVzjnC5U3PRiXhpIu-HPMYMtTX",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "Wash level is low, vol_auth is moderate, and conc is moderate, indicating low manipulation risk.",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "ZOICH",
+      "addr": "EQC-hAwmSVgJ7iDUPc045FB3HISsPjaVReakE_OA7YxPnpmD",
+      "manip_risk": "med",
+      "flags": [
+        "thin_liquidity",
+        "conceal",
+        "bundler"
+      ],
+      "reason": "High concentration (conc: 0.867) and bundler evidence (bundle: 0.0708) suggest potential manipulation. Low vol_auth (0.9) and high conc indicate possible concealment of liquidity.",
+      "ensemble": {
+        "votes": [
+          "med",
+          "med",
+          "med"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQC1fjsBMk…",
+      "addr": "EQC1fjsBMkHXEcjmATHHy4vjNCKbZhoroDRubT61XSDE1MQc",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "Wash level is low, vol_auth is moderate, and conc is moderate, indicating low manipulation risk.",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "GRM",
+      "addr": "EQC47093oX5Xhb0xuk2lCr2RhS8rj-vul61u4W2UH5ORmG_O",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "low wash and vol_auth indicates low manipulation risk; other features show no significant indicators of manipulation",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQC4Dx5Mqy…",
+      "addr": "EQC4Dx5Mqy9qhqHpH0cl_U8hejBnchNXZn_L0_Oj2zLY5B3P",
+      "manip_risk": "high",
+      "flags": [
+        "wash",
+        "conceal"
+      ],
+      "reason": "High wash and conceal indicators suggest significant manipulation risk. Low vol_auth and moderate conc further indicate potential for artificial trading activity.",
+      "ensemble": {
+        "votes": [
+          "high",
+          "high",
+          "high"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "Yoda",
+      "addr": "EQC7vuKEYLdC72YhUWt3AUVA-Oi66Q1DxTHXH7r6pXaV50j7",
+      "manip_risk": "med",
+      "flags": [
+        "conceal",
+        "bundler"
+      ],
+      "reason": "Moderate manipulation risk due to high concentration and bundler evidence. Low wash but moderate concealment and bundler indicators suggest potential for manipulation.",
+      "ensemble": {
+        "votes": [
+          "med",
+          "med",
+          "med"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "tsTON",
+      "addr": "EQC98_qAmNEptUtPc7W6xdHh_ZHrBUFpw5Ft_IzNU20QAJav",
+      "manip_risk": "low",
+      "flags": [
+        "vol_auth"
+      ],
+      "reason": "Low wash and conceal indicators, but high vol_auth suggests liquidity concerns. Low manipulation risk overall.",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQCQUbMUqc…",
+      "addr": "EQCQUbMUqcm6NYr6QdfIl3R3SE28wUpoX51Za604x9BSbA6y",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "Wash level is low, vol_auth is moderate, and conc is moderate, indicating low manipulation risk.",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "VIRUS",
+      "addr": "EQC_74epowycMOTiRCnxzMrds2AP94KawhrYp_0jvFNwsbNl",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "Wash is low, vol_auth is moderate, conc is moderate, and no significant on-chain indicators suggest manipulation.",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQCpmqRodH…",
+      "addr": "EQCpmqRodHDeQwsYqIq2cquNox9AiVhUlI5rbW7OW4sozW5-",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "Wash level is low, vol_auth is moderate, and conc is moderate, indicating low manipulation risk.",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "MAJOR",
+      "addr": "EQCuPm01HldiduQ55xaBF_1kaW_WAUy5DHey8suqzU_MAJOR",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "low wash and vol_auth indicates low manipulation risk; low conc and hhi suggest no concentration concerns",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "DOGS",
+      "addr": "EQCvxJy4eG8hyHBFsZ7eePxrRsUQSFE_jpptRAYBmcG_DOGS",
+      "manip_risk": "med",
+      "flags": [
+        "bundler",
+        "spread"
+      ],
+      "reason": "High spread indicates price discrepancy, and bundler flag suggests coordinated supply. Moderate manipulation risk due to these factors.",
+      "ensemble": {
+        "votes": [
+          "med",
+          "med",
+          "med"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "USD₮",
+      "addr": "EQCxE6mUtQJKFnGfaROTKOt1lZbDiiX1kCixRv7Nw2Id_sDs",
+      "manip_risk": "med",
+      "flags": [
+        "bundler",
+        "conceal"
+      ],
+      "reason": "High buyer concentration and bundler evidence suggest manipulation. Low vol_auth and high bundle indicate potential coordination.",
+      "ensemble": {
+        "votes": [
+          "med",
+          "med",
+          "med"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQD-cvR0Nz…",
+      "addr": "EQD-cvR0Nz6XAyRBvbhz-abTrRC6sI5tvHvvpeQraV9UAAD7",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "Wash level is low, vol_auth is moderate, and conc is moderate, indicating low manipulation risk.",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQD01TwE1p…",
+      "addr": "EQD01TwE1plYpYKvRwWOLwAzzAJaDKwpB2bR3nfg-wkJJwks",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "Wash level is low, vol_auth is moderate, and conc is moderate, indicating low manipulation risk.",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQDE1iPrP8…",
+      "addr": "EQDE1iPrP80L17RzkH3YluXsEcn5i-bPFfue259uMKKFE3h0",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "Wash level is low, vol_auth is moderate, and conc is moderate, indicating low manipulation risk.",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQDOhnt7WU…",
+      "addr": "EQDOhnt7WU7GRAb54clJNfDXRpvoGWwPjKwsHmlyMP2FdI6Z",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "Wash level is low, vol_auth is moderate, and conc is moderate, indicating low manipulation risk.",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "tsUSDe",
+      "addr": "EQDQ5UUyPHrLcQJlPAczd_fjxn8SLrlNQwolBznxCdSlfQwr",
+      "manip_risk": "med",
+      "flags": [
+        "bundler",
+        "conceal"
+      ],
+      "reason": "Moderate manipulation risk due to high concentration in top 10 holders and a low volume of authentic buyers. The token is relatively new, which may indicate launch risks.",
+      "ensemble": {
+        "votes": [
+          "med",
+          "med",
+          "med"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "EQDV0Q8euP…",
+      "addr": "EQDV0Q8euPPdsxHfaOQAmtdDrh3j5o_odMYIJM4nuiUO6t88",
+      "manip_risk": "low",
+      "flags": [],
+      "reason": "Wash level is low, vol_auth is moderate, and conc is moderate, indicating low manipulation risk.",
+      "ensemble": {
+        "votes": [
+          "low",
+          "low",
+          "low"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "BUDDY",
+      "addr": "EQDZvDW7Cf33YjMpeVr771PMrYgymGFyibTdcL4y-unuFtmA",
+      "manip_risk": "med",
+      "flags": [
+        "bundler",
+        "conceal"
+      ],
+      "reason": "Moderate manipulation risk due to high concentration and bundler evidence. Low wash but high concealment suggests potential for future manipulation.",
+      "ensemble": {
+        "votes": [
+          "med",
+          "med",
+          "med"
+        ],
+        "stable": true
+      }
+    },
+    {
+      "sym": "MTONGA",
+      "addr": "EQDuGgqZU7_AEgiOwEe-abozIefuoairTWLOyd7c_f8GhzMf",
+      "manip_risk": "med",
+      "flags": [
+        "bundler",
+        "conceal"
+      ],
+      "reason": "Moderate manipulation risk due to bundler evidence and concealment indicators. The token has a low wash but shows signs of coordinated supply and potential distribution issues.",
+      "ensemble": {
+        "votes": [
+          "med",
+          "med",
+          "med"
+        ],
+        "stable": true
+      }
+    }
+  ]
+}
